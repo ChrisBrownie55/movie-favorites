@@ -1,42 +1,36 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
+
 import Movie from './Movie'
+import Button from './Button'
 
 function NewMovie() {
   const [value, setValue] = useState('')
   const [genre, setGenre] = useState(null)
 
+  const handleChange = useCallback(
+    event => {
+      setValue(event.target.value)
+    },
+    [setValue]
+  )
+
   return (
-    <form className="flex flex-col">
+    <form className="flex flex-col p-4">
       <Movie
         value={value}
-        onChange={setValue}
+        onChange={handleChange}
         genre={genre}
         onGenreChange={setGenre}
         placeholder="New Movie"
       />
 
-      <div className="flex">
-        <button
-          className={`
-            py-2 px-4 rounded
-            bg-blue hover:bg-blue-dark
-            text-white font-semibold
-            focus:outline-none focus:shadow-outline
-          `}
-          type="submit"
-        >
+      <div className="flex mt-4">
+        <Button primary type="submit">
           Save Movie
-        </button>
-        <button
-          className={`
-          text-blue font-normal
-          hover:text-white
-          hover:bg-blue hover:opacity-50
-        `}
-          type="reset"
-        >
+        </Button>
+        <Button secondary type="reset" className="ml-4">
           Cancel
-        </button>
+        </Button>
       </div>
     </form>
   )
