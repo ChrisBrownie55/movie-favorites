@@ -3,7 +3,7 @@ import Movie, { MovieSkeleton } from './Movie'
 import { ReactComponent as MovieItemsSVG } from '../movie-items.svg'
 
 import { connect } from '../store'
-import { editMovie } from '../store/actions'
+import { editMovie, setMovies } from '../store/actions'
 import { storage } from 'kv-storage-polyfill'
 
 function MovieList({ movies }) {
@@ -15,7 +15,7 @@ function MovieList({ movies }) {
         const movies = await storage.get('movies')
 
         if (Array.isArray(movies)) {
-          loadMovies(movies)
+          setMovies(movies)
         }
 
         setMoviesLoaded(true)

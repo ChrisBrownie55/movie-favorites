@@ -8,7 +8,7 @@ export const types = {
   ADD_MOVIE: 0,
   REMOVE_MOVIE: 1,
   EDIT_MOVIE: 2,
-  LOAD_MOVIES: 3
+  SET_MOVIES: 3
 }
 
 const initialState = []
@@ -24,7 +24,7 @@ function movieReducer(state = initialState, action) {
         action.payload.movie,
         ...state.slice(action.payload.index + 1)
       ]
-    case types.LOAD_MOVIES:
+    case types.SET_MOVIES:
       return action.payload
     default:
       return state
@@ -35,6 +35,7 @@ const store = createStore(movieReducer, composeWithDevTools())
 
 // updates kv-storage with new value on change
 // debounced to avoid constantly updating
+window.kvStorage = storage
 store.subscribe(
   debounce(() => {
     const state = store.getState()
