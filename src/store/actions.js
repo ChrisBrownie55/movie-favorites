@@ -20,3 +20,10 @@ export function editMovie(index, movie) {
     payload: { index, movie }
   })
 }
+
+export function loadMovies(movies) {
+  store.dispatch({
+    type: types.LOAD_MOVIES,
+    payload: movies
+  })
+}

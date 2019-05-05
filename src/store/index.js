@@ -5,7 +5,8 @@ import { storage } from 'kv-storage-polyfill'
 export const types = {
   ADD_MOVIE: 0,
   REMOVE_MOVIE: 1,
-  EDIT_MOVIE: 2
+  EDIT_MOVIE: 2,
+  LOAD_MOVIES: 3
 }
 
 const initialState = []
@@ -21,6 +22,8 @@ function movieReducer(state = initialState, action) {
         action.payload.movie,
         ...state.slice(action.payload.index)
       ]
+    case types.LOAD_MOVIES:
+      return action.payload
     default:
       return state
   }
