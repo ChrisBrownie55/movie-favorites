@@ -11,15 +11,13 @@ function NewMovie() {
   const handleSubmit = useCallback(event => {
     event.preventDefault()
     addMovie({ name, genre, rating: 3 })
+    handleReset()
   }, [])
 
-  const handleReset = useCallback(
-    event => {
-      setName('')
-      setGenre(null)
-    },
-    [setName, setGenre]
-  )
+  const handleReset = useCallback(() => {
+    setName('')
+    setGenre(null)
+  }, [setName, setGenre])
 
   return (
     <form
@@ -27,12 +25,14 @@ function NewMovie() {
       onSubmit={handleSubmit}
       onReset={handleReset}
     >
+      <label htmlFor="new-movie">New Movie</label>
       <Movie
         value={name}
         onChange={setName}
         genre={genre}
         onGenreChange={setGenre}
         placeholder="New Movie"
+        inputId="new-movie"
       />
 
       <div className="flex md:justify-baseline mt-4 w-64 md:w-auto mx-auto md:mx-0">

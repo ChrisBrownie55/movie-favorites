@@ -27,6 +27,7 @@ function Movie({
   rating = null,
   onRatingChange,
   className,
+  inputId,
   ...props
 }) {
   const stars = []
@@ -71,6 +72,7 @@ function Movie({
         value={value}
         onChange={onChange}
         placeholder={placeholder}
+        id={inputId}
       />
       <Select
         className="inline-block w-64 md:w-48 md:mr-2"
@@ -89,7 +91,10 @@ export function MovieSkeleton(props) {
   const stars = []
   for (let i = 0; i < 5; ++i) {
     stars.push(
-      <div className="rounded-full w-6 h-6 mt-1 mr-2 bg-grey-lightest skeleton skeleton-circle overflow-hidden opacity-50" />
+      <div
+        key={i}
+        className="rounded-full w-6 h-6 mt-1 mr-2 bg-grey-lightest skeleton skeleton-circle overflow-hidden opacity-50"
+      />
     )
   }
   return (
@@ -101,7 +106,7 @@ export function MovieSkeleton(props) {
           skeleton
         `}
       />
-      <div className="inline-block w-64 md:w-48 mr-2 bg-grey-lightest rounded skeleton" />
+      <div className="inline-block w-64 md:w-48 mr-2 bg-grey-lightest rounded skeleton opacity-75" />
       <div className="flex" children={stars} />
     </article>
   )
