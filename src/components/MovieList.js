@@ -18,7 +18,7 @@ function MovieList({ movies }) {
       }
     }
 
-    // loadMovies()
+    loadMovies()
   }, [setMoviesLoaded])
 
   if (!haveMoviesLoaded) {
