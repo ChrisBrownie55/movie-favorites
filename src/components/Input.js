@@ -8,9 +8,20 @@ import React, {
 } from 'react'
 import { debounce } from 'mini-debounce'
 
-const Input = memo(({ onChange, ...props }) => (
+import classNames from '@chbphone55/classnames'
+
+const Input = memo(({ className, onChange, ...props }) => (
   <input
     onChange={useCallback(event => onChange(event.target.value), [onChange])}
+    className={classNames(
+      className,
+      `
+      w-64 px-3 py-2 md:mr-4 mb-2 md:mb-0
+      bg-grey-lightest focus:bg-grey-lighter
+      rounded
+      focus:outline-none
+    `
+    )}
     {...props}
   />
 ))

@@ -62,12 +62,6 @@ function Movie({
       {...props}
     >
       <InputElement
-        className={`
-          w-64 px-3 py-2 md:mr-4 mb-2 md:mb-0
-          bg-grey-lightest focus:bg-grey-lighter
-          rounded
-          focus:outline-none
-        `}
         style={{
           transition: 'all 0.15s ease-out'
         }}
@@ -75,6 +69,7 @@ function Movie({
         onChange={onChange}
         placeholder={placeholder}
         id={inputId}
+        required
       />
       <Select
         className="inline-block w-64 md:w-48 md:mr-2"
