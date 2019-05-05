@@ -32,22 +32,26 @@ function Movie({
   // Create stars
   for (let i = 0; i < rating; ++i) {
     stars.push(
-      <FontAwesomeIcon
+      <button
         key={i}
-        icon={faStar}
-        className="text-yellow-dark mr-2"
-      />
+        onClick={() => onRatingChange(i + 1)}
+        className="text-yellow-dark mr-2 focus:outline-none"
+      >
+        <FontAwesomeIcon icon={faStar} />
+      </button>
     )
   }
 
   // Create star outlines
   for (let i = 0; i < 5 - rating; ++i) {
     stars.push(
-      <FontAwesomeIcon
+      <button
         key={rating + i}
-        icon={faStarOutline}
-        className="text-yellow-dark mr-2"
-      />
+        onClick={() => onRatingChange(rating + i + 1)}
+        className="text-yellow-dark mr-2 focus:outline-none"
+      >
+        <FontAwesomeIcon icon={faStarOutline} />
+      </button>
     )
   }
 
