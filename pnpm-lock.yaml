@@ -12,6 +12,7 @@ dependencies:
   react-scripts: registry.npmjs.org/react-scripts/3.0.0
   react-select: registry.npmjs.org/react-select/2.4.3
   redux: registry.npmjs.org/redux/4.0.1
+  redux-devtools-extension: registry.npmjs.org/redux-devtools-extension/2.13.8
 devDependencies:
   '@svgr/webpack': registry.npmjs.org/@svgr/webpack/4.2.0
   autoprefixer: registry.npmjs.org/autoprefixer/9.5.1
@@ -13532,6 +13533,16 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/recursive-readdir/-/recursive-readdir-2.2.2.tgz'
     version: 2.2.2
+  registry.npmjs.org/redux-devtools-extension/2.13.8:
+    dev: false
+    name: redux-devtools-extension
+    peerDependencies:
+      redux: ^3.1.0 || ^4.0.0
+    resolution:
+      integrity: sha512-8qlpooP2QqPtZHQZRhx3x3OP5skEV1py/zUdMY28WNAocbafxdG2tRD1MWE7sp8obGMNYuLWanhhQ7EQvT1FBg==
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/redux-devtools-extension/-/redux-devtools-extension-2.13.8.tgz'
+    version: 2.13.8
   registry.npmjs.org/redux/4.0.1:
     dependencies:
       loose-envify: registry.npmjs.org/loose-envify/1.4.0
@@ -16643,5 +16654,6 @@ specifiers:
   react-scripts: 3.0.0
   react-select: ^2.4.3
   redux: ^4.0.1
+  redux-devtools-extension: ^2.13.8
   tailwindcss: ^0.7.4
   tailwindcss-alpha: ^0.1.4

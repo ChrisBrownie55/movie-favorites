@@ -1,4 +1,5 @@
 import { createStore } from 'redux'
+import { composeWithDevTools } from 'redux-devtools-extension'
 import { connect } from 'react-redux'
 import { storage } from 'kv-storage-polyfill'
 import { debounce } from 'mini-debounce'
@@ -30,7 +31,7 @@ function movieReducer(state = initialState, action) {
   }
 }
 
-const store = createStore(movieReducer)
+const store = createStore(movieReducer, composeWithDevTools())
 
 // updates kv-storage with new value on change
 // debounced to avoid constantly updating
