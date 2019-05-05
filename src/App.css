@@ -1,0 +1,9 @@
+.App {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.NewMovie {
+  grid-area: 2;
+  align-self: flex-end;
+}
