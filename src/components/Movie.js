@@ -1,5 +1,5 @@
 import React from 'react'
-import Input from './Input'
+import Input, { DebouncedInput } from './Input'
 import Select from 'react-select'
 
 import classNames from '@chbphone55/classnames'
@@ -51,6 +51,8 @@ function Movie({
     )
   }
 
+  const InputElement = rating ? DebouncedInput : Input
+
   return (
     <article
       className={classNames(
@@ -59,7 +61,7 @@ function Movie({
       )}
       {...props}
     >
-      <Input
+      <InputElement
         className={`
           w-64 px-3 py-2 md:mr-4 mb-2 md:mb-0
           bg-grey-lightest focus:bg-grey-lighter
