@@ -17,7 +17,10 @@ function movieReducer(state = initialState, action) {
     case types.ADD_MOVIE:
       return [action.payload, ...state]
     case types.REMOVE_MOVIE:
-      return [...state.slice(0, action.payload), ...state.slice(action.payload)]
+      return [
+        ...state.slice(0, action.payload),
+        ...state.slice(action.payload + 1)
+      ]
     case types.EDIT_MOVIE:
       return [
         ...state.slice(0, action.payload.index),
