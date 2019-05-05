@@ -4,6 +4,7 @@ dependencies:
   '@fortawesome/free-regular-svg-icons': registry.npmjs.org/@fortawesome/free-regular-svg-icons/5.8.1
   '@fortawesome/free-solid-svg-icons': registry.npmjs.org/@fortawesome/free-solid-svg-icons/5.8.1
   '@fortawesome/react-fontawesome': registry.npmjs.org/@fortawesome/react-fontawesome/0.1.4
+  kv-storage-polyfill: registry.npmjs.org/kv-storage-polyfill/1.0.0
   react: registry.npmjs.org/react/16.8.6
   react-dom: registry.npmjs.org/react-dom/16.8.6
   react-scripts: registry.npmjs.org/react-scripts/3.0.0
@@ -9845,6 +9846,14 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz'
     version: 3.0.3
+  registry.npmjs.org/kv-storage-polyfill/1.0.0:
+    dev: false
+    name: kv-storage-polyfill
+    resolution:
+      integrity: sha512-MTroAaQbtFrfdlIaqC2QT3BxPzFMc34seARshigZ/yShZ2CdXcHy9yimuhboqlAYVCmLvOtbdpVifvEav+UQXA==
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/kv-storage-polyfill/-/kv-storage-polyfill-1.0.0.tgz'
+    version: 1.0.0
   registry.npmjs.org/last-call-webpack-plugin/3.0.0:
     dependencies:
       lodash: registry.npmjs.org/lodash/4.17.11
@@ -16559,6 +16568,7 @@ specifiers:
   '@fortawesome/react-fontawesome': ^0.1.4
   '@svgr/webpack': ^4.2.0
   autoprefixer: ^9.5.1
+  kv-storage-polyfill: ^1.0.0
   postcss-cli: ^6.1.2
   react: ^16.8.6
   react-dom: ^16.8.6
