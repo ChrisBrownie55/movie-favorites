@@ -7,7 +7,7 @@ import MovieList from './components/MovieList'
 function App() {
   return (
     <main className="min-h-screen p-8 App">
-      <h1 className="text-xl font-semibold text-center md:text-left">
+      <h1 className="text-xl font-semibold text-center md:text-left mb-4">
         Your Movies
       </h1>
       <MovieList />
