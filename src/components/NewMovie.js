@@ -3,7 +3,7 @@ import React, { useState, useCallback } from 'react'
 import Movie from './Movie'
 import Button from './Button'
 
-function NewMovie() {
+function NewMovie({ className, ...props }) {
   const [value, setValue] = useState('')
   const [genre, setGenre] = useState(null)
 
@@ -14,8 +14,10 @@ function NewMovie() {
     [setValue]
   )
 
+  const handleSubmit = useCallback(event => {}, [])
+
   return (
-    <form className="flex flex-col p-4">
+    <form className="flex flex-col p-4" onSubmit={handleSubmit}>
       <Movie
         value={value}
         onChange={handleChange}
