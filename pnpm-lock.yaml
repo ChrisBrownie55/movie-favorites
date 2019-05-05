@@ -16,6 +16,7 @@ dependencies:
 devDependencies:
   '@svgr/webpack': registry.npmjs.org/@svgr/webpack/4.2.0
   autoprefixer: registry.npmjs.org/autoprefixer/9.5.1
+  postcss: registry.npmjs.org/postcss/7.0.16
   postcss-cli: registry.npmjs.org/postcss-cli/6.1.2
   tailwindcss: registry.npmjs.org/tailwindcss/0.7.4
   tailwindcss-alpha: registry.npmjs.org/tailwindcss-alpha/0.1.4
@@ -16647,6 +16648,7 @@ specifiers:
   autoprefixer: ^9.5.1
   kv-storage-polyfill: ^1.0.0
   mini-debounce: ^1.0.5
+  postcss: ^7.0.16
   postcss-cli: ^6.1.2
   react: ^16.8.6
   react-dom: ^16.8.6

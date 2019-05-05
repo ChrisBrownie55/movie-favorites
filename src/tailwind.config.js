@@ -1,3 +1,5 @@
+const postcss = require('postcss')
+
 /*
 
 Tailwind - The Utility-First CSS Framework
@@ -885,7 +887,7 @@ module.exports = {
     negativeMargin: ['responsive'],
     objectFit: false,
     objectPosition: false,
-    opacity: ['hover'],
+    opacity: ['group-hover', 'hover', 'touch-device', 'focus'],
     outline: ['focus'],
     overflow: ['responsive'],
     padding: ['responsive'],
@@ -931,7 +933,32 @@ module.exports = {
       alpha: {
         '30': 0.3
       }
-    })
+    }),
+    ({ addUtilities }) => {
+      const newUtilities = {
+        '.order--3': {
+          order: '-3'
+        }
+      }
+      addUtilities(newUtilities, {
+        variants: ['responsive']
+      })
+    },
+    ({ addVariant }) => {
+      addVariant('touch-device', ({ container, separator }) => {
+        const mediaRule = postcss.atRule({
+          name: 'media',
+          params: '(hover: none)'
+        })
+
+        mediaRule.nodes = container.nodes
+        container.nodes = [mediaRule]
+
+        mediaRule.walkRules(rule => {
+          rule.selector = `.touch-device${separator}${rule.selector.slice(1)}`
+        })
+      })
+    }
   ],
 
   /*

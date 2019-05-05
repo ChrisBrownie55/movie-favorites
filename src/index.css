@@ -4432,6 +4432,26 @@ table {
   opacity: 1;
 }
 
+.group:hover .group-hover\:opacity-0 {
+  opacity: 0;
+}
+
+.group:hover .group-hover\:opacity-25 {
+  opacity: .25;
+}
+
+.group:hover .group-hover\:opacity-50 {
+  opacity: .5;
+}
+
+.group:hover .group-hover\:opacity-75 {
+  opacity: .75;
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
 .hover\:opacity-0:hover {
   opacity: 0;
 }
@@ -4449,6 +4469,48 @@ table {
 }
 
 .hover\:opacity-100:hover {
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .touch-device\:opacity-0 {
+    opacity: 0;
+  }
+
+  .touch-device\:opacity-25 {
+    opacity: .25;
+  }
+
+  .touch-device\:opacity-50 {
+    opacity: .5;
+  }
+
+  .touch-device\:opacity-75 {
+    opacity: .75;
+  }
+
+  .touch-device\:opacity-100 {
+    opacity: 1;
+  }
+}
+
+.focus\:opacity-0:focus {
+  opacity: 0;
+}
+
+.focus\:opacity-25:focus {
+  opacity: .25;
+}
+
+.focus\:opacity-50:focus {
+  opacity: .5;
+}
+
+.focus\:opacity-75:focus {
+  opacity: .75;
+}
+
+.focus\:opacity-100:focus {
   opacity: 1;
 }
 
@@ -7651,6 +7713,11 @@ table {
 
 .active\:bg-pink-lightest-30:active {
   background-color: rgba(255, 235, 239, .3);
+}
+
+.order--3 {
+  -webkit-box-ordinal-group: -2;
+          order: -3;
 }
 
 body,
@@ -14883,6 +14950,11 @@ body,
   .sm\:active\:bg-pink-lightest-30:active {
     background-color: rgba(255, 235, 239, .3);
   }
+
+  .sm\:order--3 {
+    -webkit-box-ordinal-group: -2;
+            order: -3;
+  }
 }
 
 @media (min-width: 768px) {
@@ -21965,6 +22037,11 @@ body,
 
   .md\:active\:bg-pink-lightest-30:active {
     background-color: rgba(255, 235, 239, .3);
+  }
+
+  .md\:order--3 {
+    -webkit-box-ordinal-group: -2;
+            order: -3;
   }
 }
 
@@ -29049,6 +29126,11 @@ body,
   .lg\:active\:bg-pink-lightest-30:active {
     background-color: rgba(255, 235, 239, .3);
   }
+
+  .lg\:order--3 {
+    -webkit-box-ordinal-group: -2;
+            order: -3;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -36131,5 +36213,10 @@ body,
 
   .xl\:active\:bg-pink-lightest-30:active {
     background-color: rgba(255, 235, 239, .3);
+  }
+
+  .xl\:order--3 {
+    -webkit-box-ordinal-group: -2;
+            order: -3;
   }
 }

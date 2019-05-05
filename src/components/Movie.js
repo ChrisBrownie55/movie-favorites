@@ -6,13 +6,9 @@ import classNames from '@chbphone55/classnames'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar as faStarOutline } from '@fortawesome/free-regular-svg-icons'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { faStar, faTrash } from '@fortawesome/free-solid-svg-icons'
 
-import { colors } from '../tailwind.config.js'
 import genres from '../genres.json'
-
-const yellow = colors['yellow-dark']
-
 const options = genres.map(genre => ({
   value: genre,
   label: genre
@@ -26,6 +22,7 @@ function Movie({
   placeholder,
   rating = null,
   onRatingChange,
+  onDelete,
   className,
   inputId,
   ...props
@@ -35,7 +32,11 @@ function Movie({
   // Create stars
   for (let i = 0; i < rating; ++i) {
     stars.push(
-      <FontAwesomeIcon key={i} icon={faStar} color={yellow} className="mr-2" />
+      <FontAwesomeIcon
+        key={i}
+        icon={faStar}
+        className="text-yellow-dark mr-2"
+      />
     )
   }
 
@@ -45,9 +46,31 @@ function Movie({
       <FontAwesomeIcon
         key={rating + i}
         icon={faStarOutline}
-        color={yellow}
-        className="mr-2"
+        className="text-yellow-dark mr-2"
       />
+    )
+  }
+
+  let deleteButton = null
+  if (onDelete) {
+    deleteButton = (
+      <button
+        onClick={onDelete}
+        className={`
+          p-1 mr-2 mt-2 md:mt-0
+          text-purple-lighter hover:text-purple focus:text-purple
+          cursor-pointer md:order--3
+          opacity-0 group-hover:opacity-100 focus:opacity-100
+          touch-device:opacity-100
+          focus:outline-none
+        `}
+        style={{
+          transition: 'opacity 0.15s ease-out, color 0.15s ease-out'
+        }}
+        title="Delete Movie"
+      >
+        <FontAwesomeIcon icon={faTrash} />
+      </button>
     )
   }
 
@@ -57,7 +80,7 @@ function Movie({
     <article
       className={classNames(
         className,
-        'flex flex-col md:flex-row items-center'
+        'flex flex-col md:flex-row items-center group'
       )}
       {...props}
     >
@@ -80,6 +103,7 @@ function Movie({
         placeholder="Genre"
       />
       {rating && <div className="flex mt-2 md:mt-0">{stars}</div>}
+      {deleteButton}
     </article>
   )
 }
