@@ -25,13 +25,18 @@ function NewMovie() {
       onSubmit={handleSubmit}
       onReset={handleReset}
     >
-      <label htmlFor="new-movie">New Movie</label>
+      <label
+        htmlFor="new-movie"
+        className="ml-2 mb-2 text-grey-darkest text-xl"
+      >
+        New Movie
+      </label>
       <Movie
         value={name}
         onChange={setName}
         genre={genre}
         onGenreChange={setGenre}
-        placeholder="New Movie"
+        placeholder="Good Will Hunting"
         inputId="new-movie"
       />
 
