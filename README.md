@@ -23,6 +23,7 @@
   - Lowest rating
 - [ ] Save to online database
 - [ ] Search movies via API
+- [ ] Minimize "New Movie" form
 
 ### Tools used
 
