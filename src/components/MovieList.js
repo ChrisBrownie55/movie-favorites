@@ -55,6 +55,7 @@ function MovieList({ movies }) {
     <section className="flex flex-col">
       {movies.map((movie, index) => (
         <Movie
+          key={index}
           className="mb-8 md:mb-4"
           value={movie.name}
           onChange={name => {

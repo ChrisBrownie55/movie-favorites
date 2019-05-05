@@ -62,7 +62,7 @@ function Movie({
       {...props}
     >
       <InputElement
-        className="w-64 px-3 py-2 md:mr-4 mb-2 md:mb-0"
+        className="w-64 md:mr-4 mb-2 md:mb-0"
         style={{
           transition: 'all 0.15s ease-out'
         }}
