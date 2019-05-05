@@ -73,7 +73,7 @@ function Movie({
         required
       />
       <Select
-        className="inline-block w-64 md:w-48 md:mr-2"
+        className="inline-block w-64 md:w-48 md:mr-3"
         value={genre}
         onChange={onGenreChange}
         options={options}

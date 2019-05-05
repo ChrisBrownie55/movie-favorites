@@ -11,7 +11,8 @@ const styles = {
       ? colors['grey-lighter']
       : colors['grey-lightest'],
     borderRadius: borderRadius['default'],
-    transition: 'background-color 0.15s ease-out'
+    transition: 'background-color 0.15s ease-out',
+    cursor: 'text'
   })
 }
 
