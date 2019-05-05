@@ -1,6 +1,7 @@
 import { createStore } from 'redux'
 import { connect } from 'react-redux'
 import { storage } from 'kv-storage-polyfill'
+import { debounce } from 'mini-debounce'
 
 export const types = {
   ADD_MOVIE: 0,
@@ -32,13 +33,13 @@ function movieReducer(state = initialState, action) {
 const store = createStore(movieReducer)
 
 // updates kv-storage with new value on change
-let lastOperation = Promise.resolve()
-store.subscribe(() => {
-  const state = store.getState()
-
-  // wait for the last operation to finish
-  lastOperation = lastOperation.then(() => storage.set('movies', state))
-})
+// debounced to avoid constantly updating
+store.subscribe(
+  debounce(() => {
+    const state = store.getState()
+    storage.set('movies', state)
+  }, 500)
+)
 
 export default store
 

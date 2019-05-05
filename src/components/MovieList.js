@@ -40,7 +40,10 @@ function MovieList({ movies }) {
   if (!movies.length) {
     return (
       <div className="m-auto flex flex-col items-center">
-        <MovieItemsSVG className="h-auto mb-8" style={{ width: '25rem' }} />
+        <MovieItemsSVG
+          className="h-auto mb-8 max-w-full"
+          style={{ width: '25rem' }}
+        />
         <p className="text-xl font-medium text-grey-light text-center">
           You don't have any movies in your list. Add them below.
         </p>

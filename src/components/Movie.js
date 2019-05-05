@@ -1,9 +1,8 @@
-import React, { useState, useMemo, useCallback } from 'react'
+import React from 'react'
 import Input from './Input'
 import Select from 'react-select'
 
 import classNames from '@chbphone55/classnames'
-import { debounce } from 'mini-debounce'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar as faStarOutline } from '@fortawesome/free-regular-svg-icons'
@@ -52,16 +51,6 @@ function Movie({
     )
   }
 
-  const propagateChange = useMemo(() => debounce(onChange, 500), [onChange])
-  const [_value, setValue] = useState(value)
-  const handleChange = useCallback(
-    value => {
-      setValue(value)
-      propagateChange(value)
-    },
-    [setValue, propagateChange]
-  )
-
   return (
     <article
       className={classNames(
@@ -80,8 +69,8 @@ function Movie({
         style={{
           transition: 'all 0.15s ease-out'
         }}
-        value={_value}
-        onChange={handleChange}
+        value={value}
+        onChange={onChange}
         placeholder={placeholder}
         id={inputId}
       />
