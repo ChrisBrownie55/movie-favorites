@@ -1,4 +1,5 @@
 import { createStore } from 'redux'
+import { connect } from 'react-redux'
 import { storage } from 'kv-storage-polyfill'
 
 export const types = {
@@ -37,3 +38,6 @@ store.subscribe(() => {
 })
 
 export default store
+
+const connectMovies = connect(movies => ({ movies }))
+export { connectMovies as connect }
