@@ -20,7 +20,7 @@ function movieReducer(state = initialState, action) {
       return [
         ...state.slice(0, action.payload.index),
         action.payload.movie,
-        ...state.slice(action.payload.index)
+        ...state.slice(action.payload.index + 1)
       ]
     case types.LOAD_MOVIES:
       return action.payload
