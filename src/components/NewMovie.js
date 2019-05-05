@@ -17,7 +17,7 @@ function NewMovie() {
   const handleSubmit = useCallback(event => {}, [])
 
   return (
-    <form className="flex flex-col p-4 NewMovie" onSubmit={handleSubmit}>
+    <form className="flex flex-col p-4" onSubmit={handleSubmit}>
       <Movie
         value={value}
         onChange={handleChange}

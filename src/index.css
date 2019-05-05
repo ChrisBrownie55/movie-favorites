@@ -508,34 +508,6 @@ table {
   border-collapse: collapse;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 576px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 992px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
-}
-
 .list-reset {
   list-style: none;
   padding: 0;
@@ -6469,9 +6441,1304 @@ table {
   z-index: auto;
 }
 
+.bg-black-30 {
+  background-color: rgba(34, 41, 47, .3);
+}
+
+.bg-grey-darkest-30 {
+  background-color: rgba(61, 72, 82, .3);
+}
+
+.bg-grey-darker-30 {
+  background-color: rgba(96, 111, 123, .3);
+}
+
+.bg-grey-dark-30 {
+  background-color: rgba(135, 149, 161, .3);
+}
+
+.bg-grey-30 {
+  background-color: rgba(184, 194, 204, .3);
+}
+
+.bg-grey-light-30 {
+  background-color: hsla(208, 21%, 88%, .3);
+}
+
+.bg-grey-lighter-30 {
+  background-color: hsla(208, 21%, 92%, .3);
+}
+
+.bg-grey-lightest-30 {
+  background-color: rgba(248, 250, 252, .3);
+}
+
+.bg-white-30 {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.bg-red-darkest-30 {
+  background-color: rgba(59, 13, 12, .3);
+}
+
+.bg-red-darker-30 {
+  background-color: rgba(98, 27, 24, .3);
+}
+
+.bg-red-dark-30 {
+  background-color: rgba(204, 31, 26, .3);
+}
+
+.bg-red-30 {
+  background-color: rgba(227, 52, 47, .3);
+}
+
+.bg-red-light-30 {
+  background-color: rgba(239, 87, 83, .3);
+}
+
+.bg-red-lighter-30 {
+  background-color: rgba(249, 172, 170, .3);
+}
+
+.bg-red-lightest-30 {
+  background-color: rgba(252, 235, 234, .3);
+}
+
+.bg-orange-darkest-30 {
+  background-color: rgba(70, 42, 22, .3);
+}
+
+.bg-orange-darker-30 {
+  background-color: rgba(97, 59, 31, .3);
+}
+
+.bg-orange-dark-30 {
+  background-color: rgba(222, 117, 31, .3);
+}
+
+.bg-orange-30 {
+  background-color: rgba(246, 153, 63, .3);
+}
+
+.bg-orange-light-30 {
+  background-color: rgba(250, 173, 99, .3);
+}
+
+.bg-orange-lighter-30 {
+  background-color: rgba(252, 217, 182, .3);
+}
+
+.bg-orange-lightest-30 {
+  background-color: rgba(255, 245, 235, .3);
+}
+
+.bg-yellow-darkest-30 {
+  background-color: rgba(69, 52, 17, .3);
+}
+
+.bg-yellow-darker-30 {
+  background-color: rgba(104, 79, 29, .3);
+}
+
+.bg-yellow-dark-30 {
+  background-color: rgba(242, 208, 36, .3);
+}
+
+.bg-yellow-30 {
+  background-color: rgba(255, 237, 74, .3);
+}
+
+.bg-yellow-light-30 {
+  background-color: rgba(255, 243, 130, .3);
+}
+
+.bg-yellow-lighter-30 {
+  background-color: rgba(255, 249, 194, .3);
+}
+
+.bg-yellow-lightest-30 {
+  background-color: rgba(252, 251, 235, .3);
+}
+
+.bg-green-darkest-30 {
+  background-color: rgba(15, 47, 33, .3);
+}
+
+.bg-green-darker-30 {
+  background-color: rgba(26, 71, 49, .3);
+}
+
+.bg-green-dark-30 {
+  background-color: rgba(31, 157, 85, .3);
+}
+
+.bg-green-30 {
+  background-color: rgba(56, 193, 114, .3);
+}
+
+.bg-green-light-30 {
+  background-color: rgba(81, 216, 138, .3);
+}
+
+.bg-green-lighter-30 {
+  background-color: rgba(162, 245, 191, .3);
+}
+
+.bg-green-lightest-30 {
+  background-color: rgba(227, 252, 236, .3);
+}
+
+.bg-teal-darkest-30 {
+  background-color: rgba(13, 51, 49, .3);
+}
+
+.bg-teal-darker-30 {
+  background-color: rgba(32, 80, 79, .3);
+}
+
+.bg-teal-dark-30 {
+  background-color: rgba(56, 168, 157, .3);
+}
+
+.bg-teal-30 {
+  background-color: rgba(77, 192, 181, .3);
+}
+
+.bg-teal-light-30 {
+  background-color: rgba(100, 213, 202, .3);
+}
+
+.bg-teal-lighter-30 {
+  background-color: rgba(160, 240, 237, .3);
+}
+
+.bg-teal-lightest-30 {
+  background-color: rgba(232, 255, 254, .3);
+}
+
+.bg-blue-darkest-30 {
+  background-color: rgba(18, 40, 58, .3);
+}
+
+.bg-blue-darker-30 {
+  background-color: rgba(28, 61, 90, .3);
+}
+
+.bg-blue-dark-30 {
+  background-color: rgba(39, 121, 189, .3);
+}
+
+.bg-blue-30 {
+  background-color: rgba(52, 144, 220, .3);
+}
+
+.bg-blue-light-30 {
+  background-color: rgba(108, 178, 235, .3);
+}
+
+.bg-blue-lighter-30 {
+  background-color: rgba(188, 222, 250, .3);
+}
+
+.bg-blue-lightest-30 {
+  background-color: rgba(239, 248, 255, .3);
+}
+
+.bg-indigo-darkest-30 {
+  background-color: rgba(25, 30, 56, .3);
+}
+
+.bg-indigo-darker-30 {
+  background-color: rgba(47, 54, 95, .3);
+}
+
+.bg-indigo-dark-30 {
+  background-color: rgba(86, 97, 179, .3);
+}
+
+.bg-indigo-30 {
+  background-color: rgba(101, 116, 205, .3);
+}
+
+.bg-indigo-light-30 {
+  background-color: rgba(120, 134, 215, .3);
+}
+
+.bg-indigo-lighter-30 {
+  background-color: rgba(178, 183, 255, .3);
+}
+
+.bg-indigo-lightest-30 {
+  background-color: rgba(230, 232, 255, .3);
+}
+
+.bg-purple-darkest-30 {
+  background-color: rgba(33, 24, 60, .3);
+}
+
+.bg-purple-darker-30 {
+  background-color: rgba(56, 43, 95, .3);
+}
+
+.bg-purple-dark-30 {
+  background-color: rgba(121, 74, 207, .3);
+}
+
+.bg-purple-30 {
+  background-color: rgba(149, 97, 226, .3);
+}
+
+.bg-purple-light-30 {
+  background-color: rgba(167, 121, 233, .3);
+}
+
+.bg-purple-lighter-30 {
+  background-color: rgba(214, 187, 252, .3);
+}
+
+.bg-purple-lightest-30 {
+  background-color: rgba(243, 235, 255, .3);
+}
+
+.bg-pink-darkest-30 {
+  background-color: rgba(69, 18, 37, .3);
+}
+
+.bg-pink-darker-30 {
+  background-color: rgba(111, 33, 63, .3);
+}
+
+.bg-pink-dark-30 {
+  background-color: rgba(235, 82, 134, .3);
+}
+
+.bg-pink-30 {
+  background-color: rgba(246, 109, 155, .3);
+}
+
+.bg-pink-light-30 {
+  background-color: rgba(250, 126, 168, .3);
+}
+
+.bg-pink-lighter-30 {
+  background-color: rgba(255, 187, 202, .3);
+}
+
+.bg-pink-lightest-30 {
+  background-color: rgba(255, 235, 239, .3);
+}
+
+.hover\:bg-black-30:hover {
+  background-color: rgba(34, 41, 47, .3);
+}
+
+.hover\:bg-grey-darkest-30:hover {
+  background-color: rgba(61, 72, 82, .3);
+}
+
+.hover\:bg-grey-darker-30:hover {
+  background-color: rgba(96, 111, 123, .3);
+}
+
+.hover\:bg-grey-dark-30:hover {
+  background-color: rgba(135, 149, 161, .3);
+}
+
+.hover\:bg-grey-30:hover {
+  background-color: rgba(184, 194, 204, .3);
+}
+
+.hover\:bg-grey-light-30:hover {
+  background-color: hsla(208, 21%, 88%, .3);
+}
+
+.hover\:bg-grey-lighter-30:hover {
+  background-color: hsla(208, 21%, 92%, .3);
+}
+
+.hover\:bg-grey-lightest-30:hover {
+  background-color: rgba(248, 250, 252, .3);
+}
+
+.hover\:bg-white-30:hover {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.hover\:bg-red-darkest-30:hover {
+  background-color: rgba(59, 13, 12, .3);
+}
+
+.hover\:bg-red-darker-30:hover {
+  background-color: rgba(98, 27, 24, .3);
+}
+
+.hover\:bg-red-dark-30:hover {
+  background-color: rgba(204, 31, 26, .3);
+}
+
+.hover\:bg-red-30:hover {
+  background-color: rgba(227, 52, 47, .3);
+}
+
+.hover\:bg-red-light-30:hover {
+  background-color: rgba(239, 87, 83, .3);
+}
+
+.hover\:bg-red-lighter-30:hover {
+  background-color: rgba(249, 172, 170, .3);
+}
+
+.hover\:bg-red-lightest-30:hover {
+  background-color: rgba(252, 235, 234, .3);
+}
+
+.hover\:bg-orange-darkest-30:hover {
+  background-color: rgba(70, 42, 22, .3);
+}
+
+.hover\:bg-orange-darker-30:hover {
+  background-color: rgba(97, 59, 31, .3);
+}
+
+.hover\:bg-orange-dark-30:hover {
+  background-color: rgba(222, 117, 31, .3);
+}
+
+.hover\:bg-orange-30:hover {
+  background-color: rgba(246, 153, 63, .3);
+}
+
+.hover\:bg-orange-light-30:hover {
+  background-color: rgba(250, 173, 99, .3);
+}
+
+.hover\:bg-orange-lighter-30:hover {
+  background-color: rgba(252, 217, 182, .3);
+}
+
+.hover\:bg-orange-lightest-30:hover {
+  background-color: rgba(255, 245, 235, .3);
+}
+
+.hover\:bg-yellow-darkest-30:hover {
+  background-color: rgba(69, 52, 17, .3);
+}
+
+.hover\:bg-yellow-darker-30:hover {
+  background-color: rgba(104, 79, 29, .3);
+}
+
+.hover\:bg-yellow-dark-30:hover {
+  background-color: rgba(242, 208, 36, .3);
+}
+
+.hover\:bg-yellow-30:hover {
+  background-color: rgba(255, 237, 74, .3);
+}
+
+.hover\:bg-yellow-light-30:hover {
+  background-color: rgba(255, 243, 130, .3);
+}
+
+.hover\:bg-yellow-lighter-30:hover {
+  background-color: rgba(255, 249, 194, .3);
+}
+
+.hover\:bg-yellow-lightest-30:hover {
+  background-color: rgba(252, 251, 235, .3);
+}
+
+.hover\:bg-green-darkest-30:hover {
+  background-color: rgba(15, 47, 33, .3);
+}
+
+.hover\:bg-green-darker-30:hover {
+  background-color: rgba(26, 71, 49, .3);
+}
+
+.hover\:bg-green-dark-30:hover {
+  background-color: rgba(31, 157, 85, .3);
+}
+
+.hover\:bg-green-30:hover {
+  background-color: rgba(56, 193, 114, .3);
+}
+
+.hover\:bg-green-light-30:hover {
+  background-color: rgba(81, 216, 138, .3);
+}
+
+.hover\:bg-green-lighter-30:hover {
+  background-color: rgba(162, 245, 191, .3);
+}
+
+.hover\:bg-green-lightest-30:hover {
+  background-color: rgba(227, 252, 236, .3);
+}
+
+.hover\:bg-teal-darkest-30:hover {
+  background-color: rgba(13, 51, 49, .3);
+}
+
+.hover\:bg-teal-darker-30:hover {
+  background-color: rgba(32, 80, 79, .3);
+}
+
+.hover\:bg-teal-dark-30:hover {
+  background-color: rgba(56, 168, 157, .3);
+}
+
+.hover\:bg-teal-30:hover {
+  background-color: rgba(77, 192, 181, .3);
+}
+
+.hover\:bg-teal-light-30:hover {
+  background-color: rgba(100, 213, 202, .3);
+}
+
+.hover\:bg-teal-lighter-30:hover {
+  background-color: rgba(160, 240, 237, .3);
+}
+
+.hover\:bg-teal-lightest-30:hover {
+  background-color: rgba(232, 255, 254, .3);
+}
+
+.hover\:bg-blue-darkest-30:hover {
+  background-color: rgba(18, 40, 58, .3);
+}
+
+.hover\:bg-blue-darker-30:hover {
+  background-color: rgba(28, 61, 90, .3);
+}
+
+.hover\:bg-blue-dark-30:hover {
+  background-color: rgba(39, 121, 189, .3);
+}
+
+.hover\:bg-blue-30:hover {
+  background-color: rgba(52, 144, 220, .3);
+}
+
+.hover\:bg-blue-light-30:hover {
+  background-color: rgba(108, 178, 235, .3);
+}
+
+.hover\:bg-blue-lighter-30:hover {
+  background-color: rgba(188, 222, 250, .3);
+}
+
+.hover\:bg-blue-lightest-30:hover {
+  background-color: rgba(239, 248, 255, .3);
+}
+
+.hover\:bg-indigo-darkest-30:hover {
+  background-color: rgba(25, 30, 56, .3);
+}
+
+.hover\:bg-indigo-darker-30:hover {
+  background-color: rgba(47, 54, 95, .3);
+}
+
+.hover\:bg-indigo-dark-30:hover {
+  background-color: rgba(86, 97, 179, .3);
+}
+
+.hover\:bg-indigo-30:hover {
+  background-color: rgba(101, 116, 205, .3);
+}
+
+.hover\:bg-indigo-light-30:hover {
+  background-color: rgba(120, 134, 215, .3);
+}
+
+.hover\:bg-indigo-lighter-30:hover {
+  background-color: rgba(178, 183, 255, .3);
+}
+
+.hover\:bg-indigo-lightest-30:hover {
+  background-color: rgba(230, 232, 255, .3);
+}
+
+.hover\:bg-purple-darkest-30:hover {
+  background-color: rgba(33, 24, 60, .3);
+}
+
+.hover\:bg-purple-darker-30:hover {
+  background-color: rgba(56, 43, 95, .3);
+}
+
+.hover\:bg-purple-dark-30:hover {
+  background-color: rgba(121, 74, 207, .3);
+}
+
+.hover\:bg-purple-30:hover {
+  background-color: rgba(149, 97, 226, .3);
+}
+
+.hover\:bg-purple-light-30:hover {
+  background-color: rgba(167, 121, 233, .3);
+}
+
+.hover\:bg-purple-lighter-30:hover {
+  background-color: rgba(214, 187, 252, .3);
+}
+
+.hover\:bg-purple-lightest-30:hover {
+  background-color: rgba(243, 235, 255, .3);
+}
+
+.hover\:bg-pink-darkest-30:hover {
+  background-color: rgba(69, 18, 37, .3);
+}
+
+.hover\:bg-pink-darker-30:hover {
+  background-color: rgba(111, 33, 63, .3);
+}
+
+.hover\:bg-pink-dark-30:hover {
+  background-color: rgba(235, 82, 134, .3);
+}
+
+.hover\:bg-pink-30:hover {
+  background-color: rgba(246, 109, 155, .3);
+}
+
+.hover\:bg-pink-light-30:hover {
+  background-color: rgba(250, 126, 168, .3);
+}
+
+.hover\:bg-pink-lighter-30:hover {
+  background-color: rgba(255, 187, 202, .3);
+}
+
+.hover\:bg-pink-lightest-30:hover {
+  background-color: rgba(255, 235, 239, .3);
+}
+
+.focus\:bg-black-30:focus {
+  background-color: rgba(34, 41, 47, .3);
+}
+
+.focus\:bg-grey-darkest-30:focus {
+  background-color: rgba(61, 72, 82, .3);
+}
+
+.focus\:bg-grey-darker-30:focus {
+  background-color: rgba(96, 111, 123, .3);
+}
+
+.focus\:bg-grey-dark-30:focus {
+  background-color: rgba(135, 149, 161, .3);
+}
+
+.focus\:bg-grey-30:focus {
+  background-color: rgba(184, 194, 204, .3);
+}
+
+.focus\:bg-grey-light-30:focus {
+  background-color: hsla(208, 21%, 88%, .3);
+}
+
+.focus\:bg-grey-lighter-30:focus {
+  background-color: hsla(208, 21%, 92%, .3);
+}
+
+.focus\:bg-grey-lightest-30:focus {
+  background-color: rgba(248, 250, 252, .3);
+}
+
+.focus\:bg-white-30:focus {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.focus\:bg-red-darkest-30:focus {
+  background-color: rgba(59, 13, 12, .3);
+}
+
+.focus\:bg-red-darker-30:focus {
+  background-color: rgba(98, 27, 24, .3);
+}
+
+.focus\:bg-red-dark-30:focus {
+  background-color: rgba(204, 31, 26, .3);
+}
+
+.focus\:bg-red-30:focus {
+  background-color: rgba(227, 52, 47, .3);
+}
+
+.focus\:bg-red-light-30:focus {
+  background-color: rgba(239, 87, 83, .3);
+}
+
+.focus\:bg-red-lighter-30:focus {
+  background-color: rgba(249, 172, 170, .3);
+}
+
+.focus\:bg-red-lightest-30:focus {
+  background-color: rgba(252, 235, 234, .3);
+}
+
+.focus\:bg-orange-darkest-30:focus {
+  background-color: rgba(70, 42, 22, .3);
+}
+
+.focus\:bg-orange-darker-30:focus {
+  background-color: rgba(97, 59, 31, .3);
+}
+
+.focus\:bg-orange-dark-30:focus {
+  background-color: rgba(222, 117, 31, .3);
+}
+
+.focus\:bg-orange-30:focus {
+  background-color: rgba(246, 153, 63, .3);
+}
+
+.focus\:bg-orange-light-30:focus {
+  background-color: rgba(250, 173, 99, .3);
+}
+
+.focus\:bg-orange-lighter-30:focus {
+  background-color: rgba(252, 217, 182, .3);
+}
+
+.focus\:bg-orange-lightest-30:focus {
+  background-color: rgba(255, 245, 235, .3);
+}
+
+.focus\:bg-yellow-darkest-30:focus {
+  background-color: rgba(69, 52, 17, .3);
+}
+
+.focus\:bg-yellow-darker-30:focus {
+  background-color: rgba(104, 79, 29, .3);
+}
+
+.focus\:bg-yellow-dark-30:focus {
+  background-color: rgba(242, 208, 36, .3);
+}
+
+.focus\:bg-yellow-30:focus {
+  background-color: rgba(255, 237, 74, .3);
+}
+
+.focus\:bg-yellow-light-30:focus {
+  background-color: rgba(255, 243, 130, .3);
+}
+
+.focus\:bg-yellow-lighter-30:focus {
+  background-color: rgba(255, 249, 194, .3);
+}
+
+.focus\:bg-yellow-lightest-30:focus {
+  background-color: rgba(252, 251, 235, .3);
+}
+
+.focus\:bg-green-darkest-30:focus {
+  background-color: rgba(15, 47, 33, .3);
+}
+
+.focus\:bg-green-darker-30:focus {
+  background-color: rgba(26, 71, 49, .3);
+}
+
+.focus\:bg-green-dark-30:focus {
+  background-color: rgba(31, 157, 85, .3);
+}
+
+.focus\:bg-green-30:focus {
+  background-color: rgba(56, 193, 114, .3);
+}
+
+.focus\:bg-green-light-30:focus {
+  background-color: rgba(81, 216, 138, .3);
+}
+
+.focus\:bg-green-lighter-30:focus {
+  background-color: rgba(162, 245, 191, .3);
+}
+
+.focus\:bg-green-lightest-30:focus {
+  background-color: rgba(227, 252, 236, .3);
+}
+
+.focus\:bg-teal-darkest-30:focus {
+  background-color: rgba(13, 51, 49, .3);
+}
+
+.focus\:bg-teal-darker-30:focus {
+  background-color: rgba(32, 80, 79, .3);
+}
+
+.focus\:bg-teal-dark-30:focus {
+  background-color: rgba(56, 168, 157, .3);
+}
+
+.focus\:bg-teal-30:focus {
+  background-color: rgba(77, 192, 181, .3);
+}
+
+.focus\:bg-teal-light-30:focus {
+  background-color: rgba(100, 213, 202, .3);
+}
+
+.focus\:bg-teal-lighter-30:focus {
+  background-color: rgba(160, 240, 237, .3);
+}
+
+.focus\:bg-teal-lightest-30:focus {
+  background-color: rgba(232, 255, 254, .3);
+}
+
+.focus\:bg-blue-darkest-30:focus {
+  background-color: rgba(18, 40, 58, .3);
+}
+
+.focus\:bg-blue-darker-30:focus {
+  background-color: rgba(28, 61, 90, .3);
+}
+
+.focus\:bg-blue-dark-30:focus {
+  background-color: rgba(39, 121, 189, .3);
+}
+
+.focus\:bg-blue-30:focus {
+  background-color: rgba(52, 144, 220, .3);
+}
+
+.focus\:bg-blue-light-30:focus {
+  background-color: rgba(108, 178, 235, .3);
+}
+
+.focus\:bg-blue-lighter-30:focus {
+  background-color: rgba(188, 222, 250, .3);
+}
+
+.focus\:bg-blue-lightest-30:focus {
+  background-color: rgba(239, 248, 255, .3);
+}
+
+.focus\:bg-indigo-darkest-30:focus {
+  background-color: rgba(25, 30, 56, .3);
+}
+
+.focus\:bg-indigo-darker-30:focus {
+  background-color: rgba(47, 54, 95, .3);
+}
+
+.focus\:bg-indigo-dark-30:focus {
+  background-color: rgba(86, 97, 179, .3);
+}
+
+.focus\:bg-indigo-30:focus {
+  background-color: rgba(101, 116, 205, .3);
+}
+
+.focus\:bg-indigo-light-30:focus {
+  background-color: rgba(120, 134, 215, .3);
+}
+
+.focus\:bg-indigo-lighter-30:focus {
+  background-color: rgba(178, 183, 255, .3);
+}
+
+.focus\:bg-indigo-lightest-30:focus {
+  background-color: rgba(230, 232, 255, .3);
+}
+
+.focus\:bg-purple-darkest-30:focus {
+  background-color: rgba(33, 24, 60, .3);
+}
+
+.focus\:bg-purple-darker-30:focus {
+  background-color: rgba(56, 43, 95, .3);
+}
+
+.focus\:bg-purple-dark-30:focus {
+  background-color: rgba(121, 74, 207, .3);
+}
+
+.focus\:bg-purple-30:focus {
+  background-color: rgba(149, 97, 226, .3);
+}
+
+.focus\:bg-purple-light-30:focus {
+  background-color: rgba(167, 121, 233, .3);
+}
+
+.focus\:bg-purple-lighter-30:focus {
+  background-color: rgba(214, 187, 252, .3);
+}
+
+.focus\:bg-purple-lightest-30:focus {
+  background-color: rgba(243, 235, 255, .3);
+}
+
+.focus\:bg-pink-darkest-30:focus {
+  background-color: rgba(69, 18, 37, .3);
+}
+
+.focus\:bg-pink-darker-30:focus {
+  background-color: rgba(111, 33, 63, .3);
+}
+
+.focus\:bg-pink-dark-30:focus {
+  background-color: rgba(235, 82, 134, .3);
+}
+
+.focus\:bg-pink-30:focus {
+  background-color: rgba(246, 109, 155, .3);
+}
+
+.focus\:bg-pink-light-30:focus {
+  background-color: rgba(250, 126, 168, .3);
+}
+
+.focus\:bg-pink-lighter-30:focus {
+  background-color: rgba(255, 187, 202, .3);
+}
+
+.focus\:bg-pink-lightest-30:focus {
+  background-color: rgba(255, 235, 239, .3);
+}
+
+.active\:bg-black-30:active {
+  background-color: rgba(34, 41, 47, .3);
+}
+
+.active\:bg-grey-darkest-30:active {
+  background-color: rgba(61, 72, 82, .3);
+}
+
+.active\:bg-grey-darker-30:active {
+  background-color: rgba(96, 111, 123, .3);
+}
+
+.active\:bg-grey-dark-30:active {
+  background-color: rgba(135, 149, 161, .3);
+}
+
+.active\:bg-grey-30:active {
+  background-color: rgba(184, 194, 204, .3);
+}
+
+.active\:bg-grey-light-30:active {
+  background-color: hsla(208, 21%, 88%, .3);
+}
+
+.active\:bg-grey-lighter-30:active {
+  background-color: hsla(208, 21%, 92%, .3);
+}
+
+.active\:bg-grey-lightest-30:active {
+  background-color: rgba(248, 250, 252, .3);
+}
+
+.active\:bg-white-30:active {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.active\:bg-red-darkest-30:active {
+  background-color: rgba(59, 13, 12, .3);
+}
+
+.active\:bg-red-darker-30:active {
+  background-color: rgba(98, 27, 24, .3);
+}
+
+.active\:bg-red-dark-30:active {
+  background-color: rgba(204, 31, 26, .3);
+}
+
+.active\:bg-red-30:active {
+  background-color: rgba(227, 52, 47, .3);
+}
+
+.active\:bg-red-light-30:active {
+  background-color: rgba(239, 87, 83, .3);
+}
+
+.active\:bg-red-lighter-30:active {
+  background-color: rgba(249, 172, 170, .3);
+}
+
+.active\:bg-red-lightest-30:active {
+  background-color: rgba(252, 235, 234, .3);
+}
+
+.active\:bg-orange-darkest-30:active {
+  background-color: rgba(70, 42, 22, .3);
+}
+
+.active\:bg-orange-darker-30:active {
+  background-color: rgba(97, 59, 31, .3);
+}
+
+.active\:bg-orange-dark-30:active {
+  background-color: rgba(222, 117, 31, .3);
+}
+
+.active\:bg-orange-30:active {
+  background-color: rgba(246, 153, 63, .3);
+}
+
+.active\:bg-orange-light-30:active {
+  background-color: rgba(250, 173, 99, .3);
+}
+
+.active\:bg-orange-lighter-30:active {
+  background-color: rgba(252, 217, 182, .3);
+}
+
+.active\:bg-orange-lightest-30:active {
+  background-color: rgba(255, 245, 235, .3);
+}
+
+.active\:bg-yellow-darkest-30:active {
+  background-color: rgba(69, 52, 17, .3);
+}
+
+.active\:bg-yellow-darker-30:active {
+  background-color: rgba(104, 79, 29, .3);
+}
+
+.active\:bg-yellow-dark-30:active {
+  background-color: rgba(242, 208, 36, .3);
+}
+
+.active\:bg-yellow-30:active {
+  background-color: rgba(255, 237, 74, .3);
+}
+
+.active\:bg-yellow-light-30:active {
+  background-color: rgba(255, 243, 130, .3);
+}
+
+.active\:bg-yellow-lighter-30:active {
+  background-color: rgba(255, 249, 194, .3);
+}
+
+.active\:bg-yellow-lightest-30:active {
+  background-color: rgba(252, 251, 235, .3);
+}
+
+.active\:bg-green-darkest-30:active {
+  background-color: rgba(15, 47, 33, .3);
+}
+
+.active\:bg-green-darker-30:active {
+  background-color: rgba(26, 71, 49, .3);
+}
+
+.active\:bg-green-dark-30:active {
+  background-color: rgba(31, 157, 85, .3);
+}
+
+.active\:bg-green-30:active {
+  background-color: rgba(56, 193, 114, .3);
+}
+
+.active\:bg-green-light-30:active {
+  background-color: rgba(81, 216, 138, .3);
+}
+
+.active\:bg-green-lighter-30:active {
+  background-color: rgba(162, 245, 191, .3);
+}
+
+.active\:bg-green-lightest-30:active {
+  background-color: rgba(227, 252, 236, .3);
+}
+
+.active\:bg-teal-darkest-30:active {
+  background-color: rgba(13, 51, 49, .3);
+}
+
+.active\:bg-teal-darker-30:active {
+  background-color: rgba(32, 80, 79, .3);
+}
+
+.active\:bg-teal-dark-30:active {
+  background-color: rgba(56, 168, 157, .3);
+}
+
+.active\:bg-teal-30:active {
+  background-color: rgba(77, 192, 181, .3);
+}
+
+.active\:bg-teal-light-30:active {
+  background-color: rgba(100, 213, 202, .3);
+}
+
+.active\:bg-teal-lighter-30:active {
+  background-color: rgba(160, 240, 237, .3);
+}
+
+.active\:bg-teal-lightest-30:active {
+  background-color: rgba(232, 255, 254, .3);
+}
+
+.active\:bg-blue-darkest-30:active {
+  background-color: rgba(18, 40, 58, .3);
+}
+
+.active\:bg-blue-darker-30:active {
+  background-color: rgba(28, 61, 90, .3);
+}
+
+.active\:bg-blue-dark-30:active {
+  background-color: rgba(39, 121, 189, .3);
+}
+
+.active\:bg-blue-30:active {
+  background-color: rgba(52, 144, 220, .3);
+}
+
+.active\:bg-blue-light-30:active {
+  background-color: rgba(108, 178, 235, .3);
+}
+
+.active\:bg-blue-lighter-30:active {
+  background-color: rgba(188, 222, 250, .3);
+}
+
+.active\:bg-blue-lightest-30:active {
+  background-color: rgba(239, 248, 255, .3);
+}
+
+.active\:bg-indigo-darkest-30:active {
+  background-color: rgba(25, 30, 56, .3);
+}
+
+.active\:bg-indigo-darker-30:active {
+  background-color: rgba(47, 54, 95, .3);
+}
+
+.active\:bg-indigo-dark-30:active {
+  background-color: rgba(86, 97, 179, .3);
+}
+
+.active\:bg-indigo-30:active {
+  background-color: rgba(101, 116, 205, .3);
+}
+
+.active\:bg-indigo-light-30:active {
+  background-color: rgba(120, 134, 215, .3);
+}
+
+.active\:bg-indigo-lighter-30:active {
+  background-color: rgba(178, 183, 255, .3);
+}
+
+.active\:bg-indigo-lightest-30:active {
+  background-color: rgba(230, 232, 255, .3);
+}
+
+.active\:bg-purple-darkest-30:active {
+  background-color: rgba(33, 24, 60, .3);
+}
+
+.active\:bg-purple-darker-30:active {
+  background-color: rgba(56, 43, 95, .3);
+}
+
+.active\:bg-purple-dark-30:active {
+  background-color: rgba(121, 74, 207, .3);
+}
+
+.active\:bg-purple-30:active {
+  background-color: rgba(149, 97, 226, .3);
+}
+
+.active\:bg-purple-light-30:active {
+  background-color: rgba(167, 121, 233, .3);
+}
+
+.active\:bg-purple-lighter-30:active {
+  background-color: rgba(214, 187, 252, .3);
+}
+
+.active\:bg-purple-lightest-30:active {
+  background-color: rgba(243, 235, 255, .3);
+}
+
+.active\:bg-pink-darkest-30:active {
+  background-color: rgba(69, 18, 37, .3);
+}
+
+.active\:bg-pink-darker-30:active {
+  background-color: rgba(111, 33, 63, .3);
+}
+
+.active\:bg-pink-dark-30:active {
+  background-color: rgba(235, 82, 134, .3);
+}
+
+.active\:bg-pink-30:active {
+  background-color: rgba(246, 109, 155, .3);
+}
+
+.active\:bg-pink-light-30:active {
+  background-color: rgba(250, 126, 168, .3);
+}
+
+.active\:bg-pink-lighter-30:active {
+  background-color: rgba(255, 187, 202, .3);
+}
+
+.active\:bg-pink-lightest-30:active {
+  background-color: rgba(255, 235, 239, .3);
+}
+
 body,
 #root {
   min-height: 100vh;
+}
+
+/* Skeleton animation */
+
+.skeleton {
+  position: relative !important;
+}
+
+.skeleton::before {
+  content: '';
+  width: 0%;
+  position: absolute;
+  height: 100%;
+  background-color: rgba(188, 222, 250, .3);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: .25rem;
+  -webkit-animation: skeleton 3s infinite ease-in-out;
+          animation: skeleton 3s infinite ease-in-out;
+}
+
+.skeleton-circle::before {
+  border-radius: 9999px;
+}
+
+@-webkit-keyframes skeleton {
+  0% {
+    width: 0%;
+    left: 0;
+    right: auto;
+    opacity: .3;
+  }
+
+  20% {
+    width: 100%;
+    left: 0;
+    right: auto;
+    opacity: 1;
+  }
+
+  28% {
+    width: 100%;
+    left: auto;
+    right: 0;
+  }
+
+  51% {
+    width: 0%;
+    left: auto;
+    right: 0;
+  }
+
+  58% {
+    width: 0%;
+    left: auto;
+    right: 0;
+  }
+
+  82% {
+    width: 100%;
+    left: auto;
+    right: 0;
+  }
+
+  83% {
+    width: 100%;
+    left: 0;
+    right: auto;
+  }
+
+  96% {
+    width: 0%;
+    left: 0;
+    right: auto;
+  }
+
+  100% {
+    width: 0%;
+    left: 0;
+    right: auto;
+    opacity: .3;
+  }
+}
+
+@keyframes skeleton {
+  0% {
+    width: 0%;
+    left: 0;
+    right: auto;
+    opacity: .3;
+  }
+
+  20% {
+    width: 100%;
+    left: 0;
+    right: auto;
+    opacity: 1;
+  }
+
+  28% {
+    width: 100%;
+    left: auto;
+    right: 0;
+  }
+
+  51% {
+    width: 0%;
+    left: auto;
+    right: 0;
+  }
+
+  58% {
+    width: 0%;
+    left: auto;
+    right: 0;
+  }
+
+  82% {
+    width: 100%;
+    left: auto;
+    right: 0;
+  }
+
+  83% {
+    width: 100%;
+    left: 0;
+    right: auto;
+  }
+
+  96% {
+    width: 0%;
+    left: 0;
+    right: auto;
+  }
+
+  100% {
+    width: 0%;
+    left: 0;
+    right: auto;
+    opacity: .3;
+  }
 }
 
 @media (min-width: 576px) {
@@ -12342,6 +13609,1158 @@ body,
 
   .sm\:z-auto {
     z-index: auto;
+  }
+
+  .sm\:bg-black-30 {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .sm\:bg-grey-darkest-30 {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .sm\:bg-grey-darker-30 {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .sm\:bg-grey-dark-30 {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .sm\:bg-grey-30 {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .sm\:bg-grey-light-30 {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .sm\:bg-grey-lighter-30 {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .sm\:bg-grey-lightest-30 {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .sm\:bg-white-30 {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .sm\:bg-red-darkest-30 {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .sm\:bg-red-darker-30 {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .sm\:bg-red-dark-30 {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .sm\:bg-red-30 {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .sm\:bg-red-light-30 {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .sm\:bg-red-lighter-30 {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .sm\:bg-red-lightest-30 {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .sm\:bg-orange-darkest-30 {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .sm\:bg-orange-darker-30 {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .sm\:bg-orange-dark-30 {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .sm\:bg-orange-30 {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .sm\:bg-orange-light-30 {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .sm\:bg-orange-lighter-30 {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .sm\:bg-orange-lightest-30 {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .sm\:bg-yellow-darkest-30 {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .sm\:bg-yellow-darker-30 {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .sm\:bg-yellow-dark-30 {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .sm\:bg-yellow-30 {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .sm\:bg-yellow-light-30 {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .sm\:bg-yellow-lighter-30 {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .sm\:bg-yellow-lightest-30 {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .sm\:bg-green-darkest-30 {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .sm\:bg-green-darker-30 {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .sm\:bg-green-dark-30 {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .sm\:bg-green-30 {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .sm\:bg-green-light-30 {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .sm\:bg-green-lighter-30 {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .sm\:bg-green-lightest-30 {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .sm\:bg-teal-darkest-30 {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .sm\:bg-teal-darker-30 {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .sm\:bg-teal-dark-30 {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .sm\:bg-teal-30 {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .sm\:bg-teal-light-30 {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .sm\:bg-teal-lighter-30 {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .sm\:bg-teal-lightest-30 {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .sm\:bg-blue-darkest-30 {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .sm\:bg-blue-darker-30 {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .sm\:bg-blue-dark-30 {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .sm\:bg-blue-30 {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .sm\:bg-blue-light-30 {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .sm\:bg-blue-lighter-30 {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .sm\:bg-blue-lightest-30 {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .sm\:bg-indigo-darkest-30 {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .sm\:bg-indigo-darker-30 {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .sm\:bg-indigo-dark-30 {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .sm\:bg-indigo-30 {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .sm\:bg-indigo-light-30 {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .sm\:bg-indigo-lighter-30 {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .sm\:bg-indigo-lightest-30 {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .sm\:bg-purple-darkest-30 {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .sm\:bg-purple-darker-30 {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .sm\:bg-purple-dark-30 {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .sm\:bg-purple-30 {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .sm\:bg-purple-light-30 {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .sm\:bg-purple-lighter-30 {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .sm\:bg-purple-lightest-30 {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .sm\:bg-pink-darkest-30 {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .sm\:bg-pink-darker-30 {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .sm\:bg-pink-dark-30 {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .sm\:bg-pink-30 {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .sm\:bg-pink-light-30 {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .sm\:bg-pink-lighter-30 {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .sm\:bg-pink-lightest-30 {
+    background-color: rgba(255, 235, 239, .3);
+  }
+
+  .sm\:hover\:bg-black-30:hover {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .sm\:hover\:bg-grey-darkest-30:hover {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .sm\:hover\:bg-grey-darker-30:hover {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .sm\:hover\:bg-grey-dark-30:hover {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .sm\:hover\:bg-grey-30:hover {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .sm\:hover\:bg-grey-light-30:hover {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .sm\:hover\:bg-grey-lighter-30:hover {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .sm\:hover\:bg-grey-lightest-30:hover {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .sm\:hover\:bg-white-30:hover {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .sm\:hover\:bg-red-darkest-30:hover {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .sm\:hover\:bg-red-darker-30:hover {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .sm\:hover\:bg-red-dark-30:hover {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .sm\:hover\:bg-red-30:hover {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .sm\:hover\:bg-red-light-30:hover {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .sm\:hover\:bg-red-lighter-30:hover {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .sm\:hover\:bg-red-lightest-30:hover {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .sm\:hover\:bg-orange-darkest-30:hover {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .sm\:hover\:bg-orange-darker-30:hover {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .sm\:hover\:bg-orange-dark-30:hover {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .sm\:hover\:bg-orange-30:hover {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .sm\:hover\:bg-orange-light-30:hover {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .sm\:hover\:bg-orange-lighter-30:hover {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .sm\:hover\:bg-orange-lightest-30:hover {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .sm\:hover\:bg-yellow-darkest-30:hover {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .sm\:hover\:bg-yellow-darker-30:hover {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .sm\:hover\:bg-yellow-dark-30:hover {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .sm\:hover\:bg-yellow-30:hover {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .sm\:hover\:bg-yellow-light-30:hover {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .sm\:hover\:bg-yellow-lighter-30:hover {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .sm\:hover\:bg-yellow-lightest-30:hover {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .sm\:hover\:bg-green-darkest-30:hover {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .sm\:hover\:bg-green-darker-30:hover {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .sm\:hover\:bg-green-dark-30:hover {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .sm\:hover\:bg-green-30:hover {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .sm\:hover\:bg-green-light-30:hover {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .sm\:hover\:bg-green-lighter-30:hover {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .sm\:hover\:bg-green-lightest-30:hover {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .sm\:hover\:bg-teal-darkest-30:hover {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .sm\:hover\:bg-teal-darker-30:hover {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .sm\:hover\:bg-teal-dark-30:hover {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .sm\:hover\:bg-teal-30:hover {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .sm\:hover\:bg-teal-light-30:hover {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .sm\:hover\:bg-teal-lighter-30:hover {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .sm\:hover\:bg-teal-lightest-30:hover {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .sm\:hover\:bg-blue-darkest-30:hover {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .sm\:hover\:bg-blue-darker-30:hover {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .sm\:hover\:bg-blue-dark-30:hover {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .sm\:hover\:bg-blue-30:hover {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .sm\:hover\:bg-blue-light-30:hover {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .sm\:hover\:bg-blue-lighter-30:hover {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .sm\:hover\:bg-blue-lightest-30:hover {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .sm\:hover\:bg-indigo-darkest-30:hover {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .sm\:hover\:bg-indigo-darker-30:hover {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .sm\:hover\:bg-indigo-dark-30:hover {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .sm\:hover\:bg-indigo-30:hover {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .sm\:hover\:bg-indigo-light-30:hover {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .sm\:hover\:bg-indigo-lighter-30:hover {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .sm\:hover\:bg-indigo-lightest-30:hover {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .sm\:hover\:bg-purple-darkest-30:hover {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .sm\:hover\:bg-purple-darker-30:hover {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .sm\:hover\:bg-purple-dark-30:hover {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .sm\:hover\:bg-purple-30:hover {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .sm\:hover\:bg-purple-light-30:hover {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .sm\:hover\:bg-purple-lighter-30:hover {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .sm\:hover\:bg-purple-lightest-30:hover {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .sm\:hover\:bg-pink-darkest-30:hover {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .sm\:hover\:bg-pink-darker-30:hover {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .sm\:hover\:bg-pink-dark-30:hover {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .sm\:hover\:bg-pink-30:hover {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .sm\:hover\:bg-pink-light-30:hover {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .sm\:hover\:bg-pink-lighter-30:hover {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .sm\:hover\:bg-pink-lightest-30:hover {
+    background-color: rgba(255, 235, 239, .3);
+  }
+
+  .sm\:focus\:bg-black-30:focus {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .sm\:focus\:bg-grey-darkest-30:focus {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .sm\:focus\:bg-grey-darker-30:focus {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .sm\:focus\:bg-grey-dark-30:focus {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .sm\:focus\:bg-grey-30:focus {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .sm\:focus\:bg-grey-light-30:focus {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .sm\:focus\:bg-grey-lighter-30:focus {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .sm\:focus\:bg-grey-lightest-30:focus {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .sm\:focus\:bg-white-30:focus {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .sm\:focus\:bg-red-darkest-30:focus {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .sm\:focus\:bg-red-darker-30:focus {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .sm\:focus\:bg-red-dark-30:focus {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .sm\:focus\:bg-red-30:focus {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .sm\:focus\:bg-red-light-30:focus {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .sm\:focus\:bg-red-lighter-30:focus {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .sm\:focus\:bg-red-lightest-30:focus {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .sm\:focus\:bg-orange-darkest-30:focus {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .sm\:focus\:bg-orange-darker-30:focus {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .sm\:focus\:bg-orange-dark-30:focus {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .sm\:focus\:bg-orange-30:focus {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .sm\:focus\:bg-orange-light-30:focus {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .sm\:focus\:bg-orange-lighter-30:focus {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .sm\:focus\:bg-orange-lightest-30:focus {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .sm\:focus\:bg-yellow-darkest-30:focus {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .sm\:focus\:bg-yellow-darker-30:focus {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .sm\:focus\:bg-yellow-dark-30:focus {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .sm\:focus\:bg-yellow-30:focus {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .sm\:focus\:bg-yellow-light-30:focus {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .sm\:focus\:bg-yellow-lighter-30:focus {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .sm\:focus\:bg-yellow-lightest-30:focus {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .sm\:focus\:bg-green-darkest-30:focus {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .sm\:focus\:bg-green-darker-30:focus {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .sm\:focus\:bg-green-dark-30:focus {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .sm\:focus\:bg-green-30:focus {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .sm\:focus\:bg-green-light-30:focus {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .sm\:focus\:bg-green-lighter-30:focus {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .sm\:focus\:bg-green-lightest-30:focus {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .sm\:focus\:bg-teal-darkest-30:focus {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .sm\:focus\:bg-teal-darker-30:focus {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .sm\:focus\:bg-teal-dark-30:focus {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .sm\:focus\:bg-teal-30:focus {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .sm\:focus\:bg-teal-light-30:focus {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .sm\:focus\:bg-teal-lighter-30:focus {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .sm\:focus\:bg-teal-lightest-30:focus {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .sm\:focus\:bg-blue-darkest-30:focus {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .sm\:focus\:bg-blue-darker-30:focus {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .sm\:focus\:bg-blue-dark-30:focus {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .sm\:focus\:bg-blue-30:focus {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .sm\:focus\:bg-blue-light-30:focus {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .sm\:focus\:bg-blue-lighter-30:focus {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .sm\:focus\:bg-blue-lightest-30:focus {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .sm\:focus\:bg-indigo-darkest-30:focus {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .sm\:focus\:bg-indigo-darker-30:focus {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .sm\:focus\:bg-indigo-dark-30:focus {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .sm\:focus\:bg-indigo-30:focus {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .sm\:focus\:bg-indigo-light-30:focus {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .sm\:focus\:bg-indigo-lighter-30:focus {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .sm\:focus\:bg-indigo-lightest-30:focus {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .sm\:focus\:bg-purple-darkest-30:focus {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .sm\:focus\:bg-purple-darker-30:focus {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .sm\:focus\:bg-purple-dark-30:focus {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .sm\:focus\:bg-purple-30:focus {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .sm\:focus\:bg-purple-light-30:focus {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .sm\:focus\:bg-purple-lighter-30:focus {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .sm\:focus\:bg-purple-lightest-30:focus {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .sm\:focus\:bg-pink-darkest-30:focus {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .sm\:focus\:bg-pink-darker-30:focus {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .sm\:focus\:bg-pink-dark-30:focus {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .sm\:focus\:bg-pink-30:focus {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .sm\:focus\:bg-pink-light-30:focus {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .sm\:focus\:bg-pink-lighter-30:focus {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .sm\:focus\:bg-pink-lightest-30:focus {
+    background-color: rgba(255, 235, 239, .3);
+  }
+
+  .sm\:active\:bg-black-30:active {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .sm\:active\:bg-grey-darkest-30:active {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .sm\:active\:bg-grey-darker-30:active {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .sm\:active\:bg-grey-dark-30:active {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .sm\:active\:bg-grey-30:active {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .sm\:active\:bg-grey-light-30:active {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .sm\:active\:bg-grey-lighter-30:active {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .sm\:active\:bg-grey-lightest-30:active {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .sm\:active\:bg-white-30:active {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .sm\:active\:bg-red-darkest-30:active {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .sm\:active\:bg-red-darker-30:active {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .sm\:active\:bg-red-dark-30:active {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .sm\:active\:bg-red-30:active {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .sm\:active\:bg-red-light-30:active {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .sm\:active\:bg-red-lighter-30:active {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .sm\:active\:bg-red-lightest-30:active {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .sm\:active\:bg-orange-darkest-30:active {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .sm\:active\:bg-orange-darker-30:active {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .sm\:active\:bg-orange-dark-30:active {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .sm\:active\:bg-orange-30:active {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .sm\:active\:bg-orange-light-30:active {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .sm\:active\:bg-orange-lighter-30:active {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .sm\:active\:bg-orange-lightest-30:active {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .sm\:active\:bg-yellow-darkest-30:active {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .sm\:active\:bg-yellow-darker-30:active {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .sm\:active\:bg-yellow-dark-30:active {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .sm\:active\:bg-yellow-30:active {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .sm\:active\:bg-yellow-light-30:active {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .sm\:active\:bg-yellow-lighter-30:active {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .sm\:active\:bg-yellow-lightest-30:active {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .sm\:active\:bg-green-darkest-30:active {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .sm\:active\:bg-green-darker-30:active {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .sm\:active\:bg-green-dark-30:active {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .sm\:active\:bg-green-30:active {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .sm\:active\:bg-green-light-30:active {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .sm\:active\:bg-green-lighter-30:active {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .sm\:active\:bg-green-lightest-30:active {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .sm\:active\:bg-teal-darkest-30:active {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .sm\:active\:bg-teal-darker-30:active {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .sm\:active\:bg-teal-dark-30:active {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .sm\:active\:bg-teal-30:active {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .sm\:active\:bg-teal-light-30:active {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .sm\:active\:bg-teal-lighter-30:active {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .sm\:active\:bg-teal-lightest-30:active {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .sm\:active\:bg-blue-darkest-30:active {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .sm\:active\:bg-blue-darker-30:active {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .sm\:active\:bg-blue-dark-30:active {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .sm\:active\:bg-blue-30:active {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .sm\:active\:bg-blue-light-30:active {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .sm\:active\:bg-blue-lighter-30:active {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .sm\:active\:bg-blue-lightest-30:active {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .sm\:active\:bg-indigo-darkest-30:active {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .sm\:active\:bg-indigo-darker-30:active {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .sm\:active\:bg-indigo-dark-30:active {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .sm\:active\:bg-indigo-30:active {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .sm\:active\:bg-indigo-light-30:active {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .sm\:active\:bg-indigo-lighter-30:active {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .sm\:active\:bg-indigo-lightest-30:active {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .sm\:active\:bg-purple-darkest-30:active {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .sm\:active\:bg-purple-darker-30:active {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .sm\:active\:bg-purple-dark-30:active {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .sm\:active\:bg-purple-30:active {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .sm\:active\:bg-purple-light-30:active {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .sm\:active\:bg-purple-lighter-30:active {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .sm\:active\:bg-purple-lightest-30:active {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .sm\:active\:bg-pink-darkest-30:active {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .sm\:active\:bg-pink-darker-30:active {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .sm\:active\:bg-pink-dark-30:active {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .sm\:active\:bg-pink-30:active {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .sm\:active\:bg-pink-light-30:active {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .sm\:active\:bg-pink-lighter-30:active {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .sm\:active\:bg-pink-lightest-30:active {
+    background-color: rgba(255, 235, 239, .3);
   }
 }
 
@@ -18214,6 +20633,1158 @@ body,
   .md\:z-auto {
     z-index: auto;
   }
+
+  .md\:bg-black-30 {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .md\:bg-grey-darkest-30 {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .md\:bg-grey-darker-30 {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .md\:bg-grey-dark-30 {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .md\:bg-grey-30 {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .md\:bg-grey-light-30 {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .md\:bg-grey-lighter-30 {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .md\:bg-grey-lightest-30 {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .md\:bg-white-30 {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .md\:bg-red-darkest-30 {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .md\:bg-red-darker-30 {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .md\:bg-red-dark-30 {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .md\:bg-red-30 {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .md\:bg-red-light-30 {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .md\:bg-red-lighter-30 {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .md\:bg-red-lightest-30 {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .md\:bg-orange-darkest-30 {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .md\:bg-orange-darker-30 {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .md\:bg-orange-dark-30 {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .md\:bg-orange-30 {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .md\:bg-orange-light-30 {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .md\:bg-orange-lighter-30 {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .md\:bg-orange-lightest-30 {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .md\:bg-yellow-darkest-30 {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .md\:bg-yellow-darker-30 {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .md\:bg-yellow-dark-30 {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .md\:bg-yellow-30 {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .md\:bg-yellow-light-30 {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .md\:bg-yellow-lighter-30 {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .md\:bg-yellow-lightest-30 {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .md\:bg-green-darkest-30 {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .md\:bg-green-darker-30 {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .md\:bg-green-dark-30 {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .md\:bg-green-30 {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .md\:bg-green-light-30 {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .md\:bg-green-lighter-30 {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .md\:bg-green-lightest-30 {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .md\:bg-teal-darkest-30 {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .md\:bg-teal-darker-30 {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .md\:bg-teal-dark-30 {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .md\:bg-teal-30 {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .md\:bg-teal-light-30 {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .md\:bg-teal-lighter-30 {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .md\:bg-teal-lightest-30 {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .md\:bg-blue-darkest-30 {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .md\:bg-blue-darker-30 {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .md\:bg-blue-dark-30 {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .md\:bg-blue-30 {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .md\:bg-blue-light-30 {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .md\:bg-blue-lighter-30 {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .md\:bg-blue-lightest-30 {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .md\:bg-indigo-darkest-30 {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .md\:bg-indigo-darker-30 {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .md\:bg-indigo-dark-30 {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .md\:bg-indigo-30 {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .md\:bg-indigo-light-30 {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .md\:bg-indigo-lighter-30 {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .md\:bg-indigo-lightest-30 {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .md\:bg-purple-darkest-30 {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .md\:bg-purple-darker-30 {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .md\:bg-purple-dark-30 {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .md\:bg-purple-30 {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .md\:bg-purple-light-30 {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .md\:bg-purple-lighter-30 {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .md\:bg-purple-lightest-30 {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .md\:bg-pink-darkest-30 {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .md\:bg-pink-darker-30 {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .md\:bg-pink-dark-30 {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .md\:bg-pink-30 {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .md\:bg-pink-light-30 {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .md\:bg-pink-lighter-30 {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .md\:bg-pink-lightest-30 {
+    background-color: rgba(255, 235, 239, .3);
+  }
+
+  .md\:hover\:bg-black-30:hover {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .md\:hover\:bg-grey-darkest-30:hover {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .md\:hover\:bg-grey-darker-30:hover {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .md\:hover\:bg-grey-dark-30:hover {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .md\:hover\:bg-grey-30:hover {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .md\:hover\:bg-grey-light-30:hover {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .md\:hover\:bg-grey-lighter-30:hover {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .md\:hover\:bg-grey-lightest-30:hover {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .md\:hover\:bg-white-30:hover {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .md\:hover\:bg-red-darkest-30:hover {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .md\:hover\:bg-red-darker-30:hover {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .md\:hover\:bg-red-dark-30:hover {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .md\:hover\:bg-red-30:hover {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .md\:hover\:bg-red-light-30:hover {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .md\:hover\:bg-red-lighter-30:hover {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .md\:hover\:bg-red-lightest-30:hover {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .md\:hover\:bg-orange-darkest-30:hover {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .md\:hover\:bg-orange-darker-30:hover {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .md\:hover\:bg-orange-dark-30:hover {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .md\:hover\:bg-orange-30:hover {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .md\:hover\:bg-orange-light-30:hover {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .md\:hover\:bg-orange-lighter-30:hover {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .md\:hover\:bg-orange-lightest-30:hover {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .md\:hover\:bg-yellow-darkest-30:hover {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .md\:hover\:bg-yellow-darker-30:hover {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .md\:hover\:bg-yellow-dark-30:hover {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .md\:hover\:bg-yellow-30:hover {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .md\:hover\:bg-yellow-light-30:hover {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .md\:hover\:bg-yellow-lighter-30:hover {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .md\:hover\:bg-yellow-lightest-30:hover {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .md\:hover\:bg-green-darkest-30:hover {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .md\:hover\:bg-green-darker-30:hover {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .md\:hover\:bg-green-dark-30:hover {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .md\:hover\:bg-green-30:hover {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .md\:hover\:bg-green-light-30:hover {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .md\:hover\:bg-green-lighter-30:hover {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .md\:hover\:bg-green-lightest-30:hover {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .md\:hover\:bg-teal-darkest-30:hover {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .md\:hover\:bg-teal-darker-30:hover {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .md\:hover\:bg-teal-dark-30:hover {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .md\:hover\:bg-teal-30:hover {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .md\:hover\:bg-teal-light-30:hover {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .md\:hover\:bg-teal-lighter-30:hover {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .md\:hover\:bg-teal-lightest-30:hover {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .md\:hover\:bg-blue-darkest-30:hover {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .md\:hover\:bg-blue-darker-30:hover {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .md\:hover\:bg-blue-dark-30:hover {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .md\:hover\:bg-blue-30:hover {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .md\:hover\:bg-blue-light-30:hover {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .md\:hover\:bg-blue-lighter-30:hover {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .md\:hover\:bg-blue-lightest-30:hover {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .md\:hover\:bg-indigo-darkest-30:hover {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .md\:hover\:bg-indigo-darker-30:hover {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .md\:hover\:bg-indigo-dark-30:hover {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .md\:hover\:bg-indigo-30:hover {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .md\:hover\:bg-indigo-light-30:hover {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .md\:hover\:bg-indigo-lighter-30:hover {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .md\:hover\:bg-indigo-lightest-30:hover {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .md\:hover\:bg-purple-darkest-30:hover {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .md\:hover\:bg-purple-darker-30:hover {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .md\:hover\:bg-purple-dark-30:hover {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .md\:hover\:bg-purple-30:hover {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .md\:hover\:bg-purple-light-30:hover {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .md\:hover\:bg-purple-lighter-30:hover {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .md\:hover\:bg-purple-lightest-30:hover {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .md\:hover\:bg-pink-darkest-30:hover {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .md\:hover\:bg-pink-darker-30:hover {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .md\:hover\:bg-pink-dark-30:hover {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .md\:hover\:bg-pink-30:hover {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .md\:hover\:bg-pink-light-30:hover {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .md\:hover\:bg-pink-lighter-30:hover {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .md\:hover\:bg-pink-lightest-30:hover {
+    background-color: rgba(255, 235, 239, .3);
+  }
+
+  .md\:focus\:bg-black-30:focus {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .md\:focus\:bg-grey-darkest-30:focus {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .md\:focus\:bg-grey-darker-30:focus {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .md\:focus\:bg-grey-dark-30:focus {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .md\:focus\:bg-grey-30:focus {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .md\:focus\:bg-grey-light-30:focus {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .md\:focus\:bg-grey-lighter-30:focus {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .md\:focus\:bg-grey-lightest-30:focus {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .md\:focus\:bg-white-30:focus {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .md\:focus\:bg-red-darkest-30:focus {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .md\:focus\:bg-red-darker-30:focus {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .md\:focus\:bg-red-dark-30:focus {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .md\:focus\:bg-red-30:focus {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .md\:focus\:bg-red-light-30:focus {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .md\:focus\:bg-red-lighter-30:focus {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .md\:focus\:bg-red-lightest-30:focus {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .md\:focus\:bg-orange-darkest-30:focus {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .md\:focus\:bg-orange-darker-30:focus {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .md\:focus\:bg-orange-dark-30:focus {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .md\:focus\:bg-orange-30:focus {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .md\:focus\:bg-orange-light-30:focus {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .md\:focus\:bg-orange-lighter-30:focus {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .md\:focus\:bg-orange-lightest-30:focus {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .md\:focus\:bg-yellow-darkest-30:focus {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .md\:focus\:bg-yellow-darker-30:focus {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .md\:focus\:bg-yellow-dark-30:focus {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .md\:focus\:bg-yellow-30:focus {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .md\:focus\:bg-yellow-light-30:focus {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .md\:focus\:bg-yellow-lighter-30:focus {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .md\:focus\:bg-yellow-lightest-30:focus {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .md\:focus\:bg-green-darkest-30:focus {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .md\:focus\:bg-green-darker-30:focus {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .md\:focus\:bg-green-dark-30:focus {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .md\:focus\:bg-green-30:focus {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .md\:focus\:bg-green-light-30:focus {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .md\:focus\:bg-green-lighter-30:focus {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .md\:focus\:bg-green-lightest-30:focus {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .md\:focus\:bg-teal-darkest-30:focus {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .md\:focus\:bg-teal-darker-30:focus {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .md\:focus\:bg-teal-dark-30:focus {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .md\:focus\:bg-teal-30:focus {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .md\:focus\:bg-teal-light-30:focus {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .md\:focus\:bg-teal-lighter-30:focus {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .md\:focus\:bg-teal-lightest-30:focus {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .md\:focus\:bg-blue-darkest-30:focus {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .md\:focus\:bg-blue-darker-30:focus {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .md\:focus\:bg-blue-dark-30:focus {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .md\:focus\:bg-blue-30:focus {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .md\:focus\:bg-blue-light-30:focus {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .md\:focus\:bg-blue-lighter-30:focus {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .md\:focus\:bg-blue-lightest-30:focus {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .md\:focus\:bg-indigo-darkest-30:focus {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .md\:focus\:bg-indigo-darker-30:focus {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .md\:focus\:bg-indigo-dark-30:focus {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .md\:focus\:bg-indigo-30:focus {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .md\:focus\:bg-indigo-light-30:focus {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .md\:focus\:bg-indigo-lighter-30:focus {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .md\:focus\:bg-indigo-lightest-30:focus {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .md\:focus\:bg-purple-darkest-30:focus {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .md\:focus\:bg-purple-darker-30:focus {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .md\:focus\:bg-purple-dark-30:focus {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .md\:focus\:bg-purple-30:focus {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .md\:focus\:bg-purple-light-30:focus {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .md\:focus\:bg-purple-lighter-30:focus {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .md\:focus\:bg-purple-lightest-30:focus {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .md\:focus\:bg-pink-darkest-30:focus {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .md\:focus\:bg-pink-darker-30:focus {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .md\:focus\:bg-pink-dark-30:focus {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .md\:focus\:bg-pink-30:focus {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .md\:focus\:bg-pink-light-30:focus {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .md\:focus\:bg-pink-lighter-30:focus {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .md\:focus\:bg-pink-lightest-30:focus {
+    background-color: rgba(255, 235, 239, .3);
+  }
+
+  .md\:active\:bg-black-30:active {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .md\:active\:bg-grey-darkest-30:active {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .md\:active\:bg-grey-darker-30:active {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .md\:active\:bg-grey-dark-30:active {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .md\:active\:bg-grey-30:active {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .md\:active\:bg-grey-light-30:active {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .md\:active\:bg-grey-lighter-30:active {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .md\:active\:bg-grey-lightest-30:active {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .md\:active\:bg-white-30:active {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .md\:active\:bg-red-darkest-30:active {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .md\:active\:bg-red-darker-30:active {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .md\:active\:bg-red-dark-30:active {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .md\:active\:bg-red-30:active {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .md\:active\:bg-red-light-30:active {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .md\:active\:bg-red-lighter-30:active {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .md\:active\:bg-red-lightest-30:active {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .md\:active\:bg-orange-darkest-30:active {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .md\:active\:bg-orange-darker-30:active {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .md\:active\:bg-orange-dark-30:active {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .md\:active\:bg-orange-30:active {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .md\:active\:bg-orange-light-30:active {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .md\:active\:bg-orange-lighter-30:active {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .md\:active\:bg-orange-lightest-30:active {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .md\:active\:bg-yellow-darkest-30:active {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .md\:active\:bg-yellow-darker-30:active {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .md\:active\:bg-yellow-dark-30:active {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .md\:active\:bg-yellow-30:active {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .md\:active\:bg-yellow-light-30:active {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .md\:active\:bg-yellow-lighter-30:active {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .md\:active\:bg-yellow-lightest-30:active {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .md\:active\:bg-green-darkest-30:active {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .md\:active\:bg-green-darker-30:active {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .md\:active\:bg-green-dark-30:active {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .md\:active\:bg-green-30:active {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .md\:active\:bg-green-light-30:active {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .md\:active\:bg-green-lighter-30:active {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .md\:active\:bg-green-lightest-30:active {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .md\:active\:bg-teal-darkest-30:active {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .md\:active\:bg-teal-darker-30:active {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .md\:active\:bg-teal-dark-30:active {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .md\:active\:bg-teal-30:active {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .md\:active\:bg-teal-light-30:active {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .md\:active\:bg-teal-lighter-30:active {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .md\:active\:bg-teal-lightest-30:active {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .md\:active\:bg-blue-darkest-30:active {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .md\:active\:bg-blue-darker-30:active {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .md\:active\:bg-blue-dark-30:active {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .md\:active\:bg-blue-30:active {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .md\:active\:bg-blue-light-30:active {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .md\:active\:bg-blue-lighter-30:active {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .md\:active\:bg-blue-lightest-30:active {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .md\:active\:bg-indigo-darkest-30:active {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .md\:active\:bg-indigo-darker-30:active {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .md\:active\:bg-indigo-dark-30:active {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .md\:active\:bg-indigo-30:active {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .md\:active\:bg-indigo-light-30:active {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .md\:active\:bg-indigo-lighter-30:active {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .md\:active\:bg-indigo-lightest-30:active {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .md\:active\:bg-purple-darkest-30:active {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .md\:active\:bg-purple-darker-30:active {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .md\:active\:bg-purple-dark-30:active {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .md\:active\:bg-purple-30:active {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .md\:active\:bg-purple-light-30:active {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .md\:active\:bg-purple-lighter-30:active {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .md\:active\:bg-purple-lightest-30:active {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .md\:active\:bg-pink-darkest-30:active {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .md\:active\:bg-pink-darker-30:active {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .md\:active\:bg-pink-dark-30:active {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .md\:active\:bg-pink-30:active {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .md\:active\:bg-pink-light-30:active {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .md\:active\:bg-pink-lighter-30:active {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .md\:active\:bg-pink-lightest-30:active {
+    background-color: rgba(255, 235, 239, .3);
+  }
 }
 
 @media (min-width: 992px) {
@@ -24085,6 +27656,1158 @@ body,
   .lg\:z-auto {
     z-index: auto;
   }
+
+  .lg\:bg-black-30 {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .lg\:bg-grey-darkest-30 {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .lg\:bg-grey-darker-30 {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .lg\:bg-grey-dark-30 {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .lg\:bg-grey-30 {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .lg\:bg-grey-light-30 {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .lg\:bg-grey-lighter-30 {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .lg\:bg-grey-lightest-30 {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .lg\:bg-white-30 {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .lg\:bg-red-darkest-30 {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .lg\:bg-red-darker-30 {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .lg\:bg-red-dark-30 {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .lg\:bg-red-30 {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .lg\:bg-red-light-30 {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .lg\:bg-red-lighter-30 {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .lg\:bg-red-lightest-30 {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .lg\:bg-orange-darkest-30 {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .lg\:bg-orange-darker-30 {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .lg\:bg-orange-dark-30 {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .lg\:bg-orange-30 {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .lg\:bg-orange-light-30 {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .lg\:bg-orange-lighter-30 {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .lg\:bg-orange-lightest-30 {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .lg\:bg-yellow-darkest-30 {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .lg\:bg-yellow-darker-30 {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .lg\:bg-yellow-dark-30 {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .lg\:bg-yellow-30 {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .lg\:bg-yellow-light-30 {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .lg\:bg-yellow-lighter-30 {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .lg\:bg-yellow-lightest-30 {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .lg\:bg-green-darkest-30 {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .lg\:bg-green-darker-30 {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .lg\:bg-green-dark-30 {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .lg\:bg-green-30 {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .lg\:bg-green-light-30 {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .lg\:bg-green-lighter-30 {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .lg\:bg-green-lightest-30 {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .lg\:bg-teal-darkest-30 {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .lg\:bg-teal-darker-30 {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .lg\:bg-teal-dark-30 {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .lg\:bg-teal-30 {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .lg\:bg-teal-light-30 {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .lg\:bg-teal-lighter-30 {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .lg\:bg-teal-lightest-30 {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .lg\:bg-blue-darkest-30 {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .lg\:bg-blue-darker-30 {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .lg\:bg-blue-dark-30 {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .lg\:bg-blue-30 {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .lg\:bg-blue-light-30 {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .lg\:bg-blue-lighter-30 {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .lg\:bg-blue-lightest-30 {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .lg\:bg-indigo-darkest-30 {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .lg\:bg-indigo-darker-30 {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .lg\:bg-indigo-dark-30 {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .lg\:bg-indigo-30 {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .lg\:bg-indigo-light-30 {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .lg\:bg-indigo-lighter-30 {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .lg\:bg-indigo-lightest-30 {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .lg\:bg-purple-darkest-30 {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .lg\:bg-purple-darker-30 {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .lg\:bg-purple-dark-30 {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .lg\:bg-purple-30 {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .lg\:bg-purple-light-30 {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .lg\:bg-purple-lighter-30 {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .lg\:bg-purple-lightest-30 {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .lg\:bg-pink-darkest-30 {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .lg\:bg-pink-darker-30 {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .lg\:bg-pink-dark-30 {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .lg\:bg-pink-30 {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .lg\:bg-pink-light-30 {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .lg\:bg-pink-lighter-30 {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .lg\:bg-pink-lightest-30 {
+    background-color: rgba(255, 235, 239, .3);
+  }
+
+  .lg\:hover\:bg-black-30:hover {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .lg\:hover\:bg-grey-darkest-30:hover {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .lg\:hover\:bg-grey-darker-30:hover {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .lg\:hover\:bg-grey-dark-30:hover {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .lg\:hover\:bg-grey-30:hover {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .lg\:hover\:bg-grey-light-30:hover {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .lg\:hover\:bg-grey-lighter-30:hover {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .lg\:hover\:bg-grey-lightest-30:hover {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .lg\:hover\:bg-white-30:hover {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .lg\:hover\:bg-red-darkest-30:hover {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .lg\:hover\:bg-red-darker-30:hover {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .lg\:hover\:bg-red-dark-30:hover {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .lg\:hover\:bg-red-30:hover {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .lg\:hover\:bg-red-light-30:hover {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .lg\:hover\:bg-red-lighter-30:hover {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .lg\:hover\:bg-red-lightest-30:hover {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .lg\:hover\:bg-orange-darkest-30:hover {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .lg\:hover\:bg-orange-darker-30:hover {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .lg\:hover\:bg-orange-dark-30:hover {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .lg\:hover\:bg-orange-30:hover {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .lg\:hover\:bg-orange-light-30:hover {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .lg\:hover\:bg-orange-lighter-30:hover {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .lg\:hover\:bg-orange-lightest-30:hover {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .lg\:hover\:bg-yellow-darkest-30:hover {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .lg\:hover\:bg-yellow-darker-30:hover {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .lg\:hover\:bg-yellow-dark-30:hover {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .lg\:hover\:bg-yellow-30:hover {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .lg\:hover\:bg-yellow-light-30:hover {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .lg\:hover\:bg-yellow-lighter-30:hover {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .lg\:hover\:bg-yellow-lightest-30:hover {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .lg\:hover\:bg-green-darkest-30:hover {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .lg\:hover\:bg-green-darker-30:hover {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .lg\:hover\:bg-green-dark-30:hover {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .lg\:hover\:bg-green-30:hover {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .lg\:hover\:bg-green-light-30:hover {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .lg\:hover\:bg-green-lighter-30:hover {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .lg\:hover\:bg-green-lightest-30:hover {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .lg\:hover\:bg-teal-darkest-30:hover {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .lg\:hover\:bg-teal-darker-30:hover {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .lg\:hover\:bg-teal-dark-30:hover {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .lg\:hover\:bg-teal-30:hover {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .lg\:hover\:bg-teal-light-30:hover {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .lg\:hover\:bg-teal-lighter-30:hover {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .lg\:hover\:bg-teal-lightest-30:hover {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .lg\:hover\:bg-blue-darkest-30:hover {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .lg\:hover\:bg-blue-darker-30:hover {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .lg\:hover\:bg-blue-dark-30:hover {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .lg\:hover\:bg-blue-30:hover {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .lg\:hover\:bg-blue-light-30:hover {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .lg\:hover\:bg-blue-lighter-30:hover {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .lg\:hover\:bg-blue-lightest-30:hover {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .lg\:hover\:bg-indigo-darkest-30:hover {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .lg\:hover\:bg-indigo-darker-30:hover {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .lg\:hover\:bg-indigo-dark-30:hover {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .lg\:hover\:bg-indigo-30:hover {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .lg\:hover\:bg-indigo-light-30:hover {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .lg\:hover\:bg-indigo-lighter-30:hover {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .lg\:hover\:bg-indigo-lightest-30:hover {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .lg\:hover\:bg-purple-darkest-30:hover {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .lg\:hover\:bg-purple-darker-30:hover {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .lg\:hover\:bg-purple-dark-30:hover {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .lg\:hover\:bg-purple-30:hover {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .lg\:hover\:bg-purple-light-30:hover {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .lg\:hover\:bg-purple-lighter-30:hover {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .lg\:hover\:bg-purple-lightest-30:hover {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .lg\:hover\:bg-pink-darkest-30:hover {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .lg\:hover\:bg-pink-darker-30:hover {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .lg\:hover\:bg-pink-dark-30:hover {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .lg\:hover\:bg-pink-30:hover {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .lg\:hover\:bg-pink-light-30:hover {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .lg\:hover\:bg-pink-lighter-30:hover {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .lg\:hover\:bg-pink-lightest-30:hover {
+    background-color: rgba(255, 235, 239, .3);
+  }
+
+  .lg\:focus\:bg-black-30:focus {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .lg\:focus\:bg-grey-darkest-30:focus {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .lg\:focus\:bg-grey-darker-30:focus {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .lg\:focus\:bg-grey-dark-30:focus {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .lg\:focus\:bg-grey-30:focus {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .lg\:focus\:bg-grey-light-30:focus {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .lg\:focus\:bg-grey-lighter-30:focus {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .lg\:focus\:bg-grey-lightest-30:focus {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .lg\:focus\:bg-white-30:focus {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .lg\:focus\:bg-red-darkest-30:focus {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .lg\:focus\:bg-red-darker-30:focus {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .lg\:focus\:bg-red-dark-30:focus {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .lg\:focus\:bg-red-30:focus {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .lg\:focus\:bg-red-light-30:focus {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .lg\:focus\:bg-red-lighter-30:focus {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .lg\:focus\:bg-red-lightest-30:focus {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .lg\:focus\:bg-orange-darkest-30:focus {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .lg\:focus\:bg-orange-darker-30:focus {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .lg\:focus\:bg-orange-dark-30:focus {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .lg\:focus\:bg-orange-30:focus {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .lg\:focus\:bg-orange-light-30:focus {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .lg\:focus\:bg-orange-lighter-30:focus {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .lg\:focus\:bg-orange-lightest-30:focus {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .lg\:focus\:bg-yellow-darkest-30:focus {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .lg\:focus\:bg-yellow-darker-30:focus {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .lg\:focus\:bg-yellow-dark-30:focus {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .lg\:focus\:bg-yellow-30:focus {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .lg\:focus\:bg-yellow-light-30:focus {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .lg\:focus\:bg-yellow-lighter-30:focus {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .lg\:focus\:bg-yellow-lightest-30:focus {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .lg\:focus\:bg-green-darkest-30:focus {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .lg\:focus\:bg-green-darker-30:focus {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .lg\:focus\:bg-green-dark-30:focus {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .lg\:focus\:bg-green-30:focus {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .lg\:focus\:bg-green-light-30:focus {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .lg\:focus\:bg-green-lighter-30:focus {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .lg\:focus\:bg-green-lightest-30:focus {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .lg\:focus\:bg-teal-darkest-30:focus {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .lg\:focus\:bg-teal-darker-30:focus {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .lg\:focus\:bg-teal-dark-30:focus {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .lg\:focus\:bg-teal-30:focus {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .lg\:focus\:bg-teal-light-30:focus {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .lg\:focus\:bg-teal-lighter-30:focus {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .lg\:focus\:bg-teal-lightest-30:focus {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .lg\:focus\:bg-blue-darkest-30:focus {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .lg\:focus\:bg-blue-darker-30:focus {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .lg\:focus\:bg-blue-dark-30:focus {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .lg\:focus\:bg-blue-30:focus {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .lg\:focus\:bg-blue-light-30:focus {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .lg\:focus\:bg-blue-lighter-30:focus {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .lg\:focus\:bg-blue-lightest-30:focus {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .lg\:focus\:bg-indigo-darkest-30:focus {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .lg\:focus\:bg-indigo-darker-30:focus {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .lg\:focus\:bg-indigo-dark-30:focus {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .lg\:focus\:bg-indigo-30:focus {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .lg\:focus\:bg-indigo-light-30:focus {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .lg\:focus\:bg-indigo-lighter-30:focus {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .lg\:focus\:bg-indigo-lightest-30:focus {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .lg\:focus\:bg-purple-darkest-30:focus {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .lg\:focus\:bg-purple-darker-30:focus {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .lg\:focus\:bg-purple-dark-30:focus {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .lg\:focus\:bg-purple-30:focus {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .lg\:focus\:bg-purple-light-30:focus {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .lg\:focus\:bg-purple-lighter-30:focus {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .lg\:focus\:bg-purple-lightest-30:focus {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .lg\:focus\:bg-pink-darkest-30:focus {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .lg\:focus\:bg-pink-darker-30:focus {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .lg\:focus\:bg-pink-dark-30:focus {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .lg\:focus\:bg-pink-30:focus {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .lg\:focus\:bg-pink-light-30:focus {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .lg\:focus\:bg-pink-lighter-30:focus {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .lg\:focus\:bg-pink-lightest-30:focus {
+    background-color: rgba(255, 235, 239, .3);
+  }
+
+  .lg\:active\:bg-black-30:active {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .lg\:active\:bg-grey-darkest-30:active {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .lg\:active\:bg-grey-darker-30:active {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .lg\:active\:bg-grey-dark-30:active {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .lg\:active\:bg-grey-30:active {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .lg\:active\:bg-grey-light-30:active {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .lg\:active\:bg-grey-lighter-30:active {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .lg\:active\:bg-grey-lightest-30:active {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .lg\:active\:bg-white-30:active {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .lg\:active\:bg-red-darkest-30:active {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .lg\:active\:bg-red-darker-30:active {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .lg\:active\:bg-red-dark-30:active {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .lg\:active\:bg-red-30:active {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .lg\:active\:bg-red-light-30:active {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .lg\:active\:bg-red-lighter-30:active {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .lg\:active\:bg-red-lightest-30:active {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .lg\:active\:bg-orange-darkest-30:active {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .lg\:active\:bg-orange-darker-30:active {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .lg\:active\:bg-orange-dark-30:active {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .lg\:active\:bg-orange-30:active {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .lg\:active\:bg-orange-light-30:active {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .lg\:active\:bg-orange-lighter-30:active {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .lg\:active\:bg-orange-lightest-30:active {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .lg\:active\:bg-yellow-darkest-30:active {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .lg\:active\:bg-yellow-darker-30:active {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .lg\:active\:bg-yellow-dark-30:active {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .lg\:active\:bg-yellow-30:active {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .lg\:active\:bg-yellow-light-30:active {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .lg\:active\:bg-yellow-lighter-30:active {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .lg\:active\:bg-yellow-lightest-30:active {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .lg\:active\:bg-green-darkest-30:active {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .lg\:active\:bg-green-darker-30:active {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .lg\:active\:bg-green-dark-30:active {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .lg\:active\:bg-green-30:active {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .lg\:active\:bg-green-light-30:active {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .lg\:active\:bg-green-lighter-30:active {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .lg\:active\:bg-green-lightest-30:active {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .lg\:active\:bg-teal-darkest-30:active {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .lg\:active\:bg-teal-darker-30:active {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .lg\:active\:bg-teal-dark-30:active {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .lg\:active\:bg-teal-30:active {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .lg\:active\:bg-teal-light-30:active {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .lg\:active\:bg-teal-lighter-30:active {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .lg\:active\:bg-teal-lightest-30:active {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .lg\:active\:bg-blue-darkest-30:active {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .lg\:active\:bg-blue-darker-30:active {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .lg\:active\:bg-blue-dark-30:active {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .lg\:active\:bg-blue-30:active {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .lg\:active\:bg-blue-light-30:active {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .lg\:active\:bg-blue-lighter-30:active {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .lg\:active\:bg-blue-lightest-30:active {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .lg\:active\:bg-indigo-darkest-30:active {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .lg\:active\:bg-indigo-darker-30:active {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .lg\:active\:bg-indigo-dark-30:active {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .lg\:active\:bg-indigo-30:active {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .lg\:active\:bg-indigo-light-30:active {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .lg\:active\:bg-indigo-lighter-30:active {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .lg\:active\:bg-indigo-lightest-30:active {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .lg\:active\:bg-purple-darkest-30:active {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .lg\:active\:bg-purple-darker-30:active {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .lg\:active\:bg-purple-dark-30:active {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .lg\:active\:bg-purple-30:active {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .lg\:active\:bg-purple-light-30:active {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .lg\:active\:bg-purple-lighter-30:active {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .lg\:active\:bg-purple-lightest-30:active {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .lg\:active\:bg-pink-darkest-30:active {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .lg\:active\:bg-pink-darker-30:active {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .lg\:active\:bg-pink-dark-30:active {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .lg\:active\:bg-pink-30:active {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .lg\:active\:bg-pink-light-30:active {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .lg\:active\:bg-pink-lighter-30:active {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .lg\:active\:bg-pink-lightest-30:active {
+    background-color: rgba(255, 235, 239, .3);
+  }
 }
 
 @media (min-width: 1200px) {
@@ -29955,5 +34678,1157 @@ body,
 
   .xl\:z-auto {
     z-index: auto;
+  }
+
+  .xl\:bg-black-30 {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .xl\:bg-grey-darkest-30 {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .xl\:bg-grey-darker-30 {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .xl\:bg-grey-dark-30 {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .xl\:bg-grey-30 {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .xl\:bg-grey-light-30 {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .xl\:bg-grey-lighter-30 {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .xl\:bg-grey-lightest-30 {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .xl\:bg-white-30 {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .xl\:bg-red-darkest-30 {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .xl\:bg-red-darker-30 {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .xl\:bg-red-dark-30 {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .xl\:bg-red-30 {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .xl\:bg-red-light-30 {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .xl\:bg-red-lighter-30 {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .xl\:bg-red-lightest-30 {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .xl\:bg-orange-darkest-30 {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .xl\:bg-orange-darker-30 {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .xl\:bg-orange-dark-30 {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .xl\:bg-orange-30 {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .xl\:bg-orange-light-30 {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .xl\:bg-orange-lighter-30 {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .xl\:bg-orange-lightest-30 {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .xl\:bg-yellow-darkest-30 {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .xl\:bg-yellow-darker-30 {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .xl\:bg-yellow-dark-30 {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .xl\:bg-yellow-30 {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .xl\:bg-yellow-light-30 {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .xl\:bg-yellow-lighter-30 {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .xl\:bg-yellow-lightest-30 {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .xl\:bg-green-darkest-30 {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .xl\:bg-green-darker-30 {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .xl\:bg-green-dark-30 {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .xl\:bg-green-30 {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .xl\:bg-green-light-30 {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .xl\:bg-green-lighter-30 {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .xl\:bg-green-lightest-30 {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .xl\:bg-teal-darkest-30 {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .xl\:bg-teal-darker-30 {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .xl\:bg-teal-dark-30 {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .xl\:bg-teal-30 {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .xl\:bg-teal-light-30 {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .xl\:bg-teal-lighter-30 {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .xl\:bg-teal-lightest-30 {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .xl\:bg-blue-darkest-30 {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .xl\:bg-blue-darker-30 {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .xl\:bg-blue-dark-30 {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .xl\:bg-blue-30 {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .xl\:bg-blue-light-30 {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .xl\:bg-blue-lighter-30 {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .xl\:bg-blue-lightest-30 {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .xl\:bg-indigo-darkest-30 {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .xl\:bg-indigo-darker-30 {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .xl\:bg-indigo-dark-30 {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .xl\:bg-indigo-30 {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .xl\:bg-indigo-light-30 {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .xl\:bg-indigo-lighter-30 {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .xl\:bg-indigo-lightest-30 {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .xl\:bg-purple-darkest-30 {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .xl\:bg-purple-darker-30 {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .xl\:bg-purple-dark-30 {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .xl\:bg-purple-30 {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .xl\:bg-purple-light-30 {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .xl\:bg-purple-lighter-30 {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .xl\:bg-purple-lightest-30 {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .xl\:bg-pink-darkest-30 {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .xl\:bg-pink-darker-30 {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .xl\:bg-pink-dark-30 {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .xl\:bg-pink-30 {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .xl\:bg-pink-light-30 {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .xl\:bg-pink-lighter-30 {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .xl\:bg-pink-lightest-30 {
+    background-color: rgba(255, 235, 239, .3);
+  }
+
+  .xl\:hover\:bg-black-30:hover {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .xl\:hover\:bg-grey-darkest-30:hover {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .xl\:hover\:bg-grey-darker-30:hover {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .xl\:hover\:bg-grey-dark-30:hover {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .xl\:hover\:bg-grey-30:hover {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .xl\:hover\:bg-grey-light-30:hover {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .xl\:hover\:bg-grey-lighter-30:hover {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .xl\:hover\:bg-grey-lightest-30:hover {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .xl\:hover\:bg-white-30:hover {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .xl\:hover\:bg-red-darkest-30:hover {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .xl\:hover\:bg-red-darker-30:hover {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .xl\:hover\:bg-red-dark-30:hover {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .xl\:hover\:bg-red-30:hover {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .xl\:hover\:bg-red-light-30:hover {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .xl\:hover\:bg-red-lighter-30:hover {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .xl\:hover\:bg-red-lightest-30:hover {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .xl\:hover\:bg-orange-darkest-30:hover {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .xl\:hover\:bg-orange-darker-30:hover {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .xl\:hover\:bg-orange-dark-30:hover {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .xl\:hover\:bg-orange-30:hover {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .xl\:hover\:bg-orange-light-30:hover {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .xl\:hover\:bg-orange-lighter-30:hover {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .xl\:hover\:bg-orange-lightest-30:hover {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .xl\:hover\:bg-yellow-darkest-30:hover {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .xl\:hover\:bg-yellow-darker-30:hover {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .xl\:hover\:bg-yellow-dark-30:hover {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .xl\:hover\:bg-yellow-30:hover {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .xl\:hover\:bg-yellow-light-30:hover {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .xl\:hover\:bg-yellow-lighter-30:hover {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .xl\:hover\:bg-yellow-lightest-30:hover {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .xl\:hover\:bg-green-darkest-30:hover {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .xl\:hover\:bg-green-darker-30:hover {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .xl\:hover\:bg-green-dark-30:hover {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .xl\:hover\:bg-green-30:hover {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .xl\:hover\:bg-green-light-30:hover {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .xl\:hover\:bg-green-lighter-30:hover {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .xl\:hover\:bg-green-lightest-30:hover {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .xl\:hover\:bg-teal-darkest-30:hover {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .xl\:hover\:bg-teal-darker-30:hover {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .xl\:hover\:bg-teal-dark-30:hover {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .xl\:hover\:bg-teal-30:hover {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .xl\:hover\:bg-teal-light-30:hover {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .xl\:hover\:bg-teal-lighter-30:hover {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .xl\:hover\:bg-teal-lightest-30:hover {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .xl\:hover\:bg-blue-darkest-30:hover {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .xl\:hover\:bg-blue-darker-30:hover {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .xl\:hover\:bg-blue-dark-30:hover {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .xl\:hover\:bg-blue-30:hover {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .xl\:hover\:bg-blue-light-30:hover {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .xl\:hover\:bg-blue-lighter-30:hover {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .xl\:hover\:bg-blue-lightest-30:hover {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .xl\:hover\:bg-indigo-darkest-30:hover {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .xl\:hover\:bg-indigo-darker-30:hover {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .xl\:hover\:bg-indigo-dark-30:hover {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .xl\:hover\:bg-indigo-30:hover {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .xl\:hover\:bg-indigo-light-30:hover {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .xl\:hover\:bg-indigo-lighter-30:hover {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .xl\:hover\:bg-indigo-lightest-30:hover {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .xl\:hover\:bg-purple-darkest-30:hover {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .xl\:hover\:bg-purple-darker-30:hover {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .xl\:hover\:bg-purple-dark-30:hover {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .xl\:hover\:bg-purple-30:hover {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .xl\:hover\:bg-purple-light-30:hover {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .xl\:hover\:bg-purple-lighter-30:hover {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .xl\:hover\:bg-purple-lightest-30:hover {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .xl\:hover\:bg-pink-darkest-30:hover {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .xl\:hover\:bg-pink-darker-30:hover {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .xl\:hover\:bg-pink-dark-30:hover {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .xl\:hover\:bg-pink-30:hover {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .xl\:hover\:bg-pink-light-30:hover {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .xl\:hover\:bg-pink-lighter-30:hover {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .xl\:hover\:bg-pink-lightest-30:hover {
+    background-color: rgba(255, 235, 239, .3);
+  }
+
+  .xl\:focus\:bg-black-30:focus {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .xl\:focus\:bg-grey-darkest-30:focus {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .xl\:focus\:bg-grey-darker-30:focus {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .xl\:focus\:bg-grey-dark-30:focus {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .xl\:focus\:bg-grey-30:focus {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .xl\:focus\:bg-grey-light-30:focus {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .xl\:focus\:bg-grey-lighter-30:focus {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .xl\:focus\:bg-grey-lightest-30:focus {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .xl\:focus\:bg-white-30:focus {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .xl\:focus\:bg-red-darkest-30:focus {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .xl\:focus\:bg-red-darker-30:focus {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .xl\:focus\:bg-red-dark-30:focus {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .xl\:focus\:bg-red-30:focus {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .xl\:focus\:bg-red-light-30:focus {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .xl\:focus\:bg-red-lighter-30:focus {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .xl\:focus\:bg-red-lightest-30:focus {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .xl\:focus\:bg-orange-darkest-30:focus {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .xl\:focus\:bg-orange-darker-30:focus {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .xl\:focus\:bg-orange-dark-30:focus {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .xl\:focus\:bg-orange-30:focus {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .xl\:focus\:bg-orange-light-30:focus {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .xl\:focus\:bg-orange-lighter-30:focus {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .xl\:focus\:bg-orange-lightest-30:focus {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .xl\:focus\:bg-yellow-darkest-30:focus {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .xl\:focus\:bg-yellow-darker-30:focus {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .xl\:focus\:bg-yellow-dark-30:focus {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .xl\:focus\:bg-yellow-30:focus {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .xl\:focus\:bg-yellow-light-30:focus {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .xl\:focus\:bg-yellow-lighter-30:focus {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .xl\:focus\:bg-yellow-lightest-30:focus {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .xl\:focus\:bg-green-darkest-30:focus {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .xl\:focus\:bg-green-darker-30:focus {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .xl\:focus\:bg-green-dark-30:focus {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .xl\:focus\:bg-green-30:focus {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .xl\:focus\:bg-green-light-30:focus {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .xl\:focus\:bg-green-lighter-30:focus {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .xl\:focus\:bg-green-lightest-30:focus {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .xl\:focus\:bg-teal-darkest-30:focus {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .xl\:focus\:bg-teal-darker-30:focus {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .xl\:focus\:bg-teal-dark-30:focus {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .xl\:focus\:bg-teal-30:focus {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .xl\:focus\:bg-teal-light-30:focus {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .xl\:focus\:bg-teal-lighter-30:focus {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .xl\:focus\:bg-teal-lightest-30:focus {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .xl\:focus\:bg-blue-darkest-30:focus {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .xl\:focus\:bg-blue-darker-30:focus {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .xl\:focus\:bg-blue-dark-30:focus {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .xl\:focus\:bg-blue-30:focus {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .xl\:focus\:bg-blue-light-30:focus {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .xl\:focus\:bg-blue-lighter-30:focus {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .xl\:focus\:bg-blue-lightest-30:focus {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .xl\:focus\:bg-indigo-darkest-30:focus {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .xl\:focus\:bg-indigo-darker-30:focus {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .xl\:focus\:bg-indigo-dark-30:focus {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .xl\:focus\:bg-indigo-30:focus {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .xl\:focus\:bg-indigo-light-30:focus {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .xl\:focus\:bg-indigo-lighter-30:focus {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .xl\:focus\:bg-indigo-lightest-30:focus {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .xl\:focus\:bg-purple-darkest-30:focus {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .xl\:focus\:bg-purple-darker-30:focus {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .xl\:focus\:bg-purple-dark-30:focus {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .xl\:focus\:bg-purple-30:focus {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .xl\:focus\:bg-purple-light-30:focus {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .xl\:focus\:bg-purple-lighter-30:focus {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .xl\:focus\:bg-purple-lightest-30:focus {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .xl\:focus\:bg-pink-darkest-30:focus {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .xl\:focus\:bg-pink-darker-30:focus {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .xl\:focus\:bg-pink-dark-30:focus {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .xl\:focus\:bg-pink-30:focus {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .xl\:focus\:bg-pink-light-30:focus {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .xl\:focus\:bg-pink-lighter-30:focus {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .xl\:focus\:bg-pink-lightest-30:focus {
+    background-color: rgba(255, 235, 239, .3);
+  }
+
+  .xl\:active\:bg-black-30:active {
+    background-color: rgba(34, 41, 47, .3);
+  }
+
+  .xl\:active\:bg-grey-darkest-30:active {
+    background-color: rgba(61, 72, 82, .3);
+  }
+
+  .xl\:active\:bg-grey-darker-30:active {
+    background-color: rgba(96, 111, 123, .3);
+  }
+
+  .xl\:active\:bg-grey-dark-30:active {
+    background-color: rgba(135, 149, 161, .3);
+  }
+
+  .xl\:active\:bg-grey-30:active {
+    background-color: rgba(184, 194, 204, .3);
+  }
+
+  .xl\:active\:bg-grey-light-30:active {
+    background-color: hsla(208, 21%, 88%, .3);
+  }
+
+  .xl\:active\:bg-grey-lighter-30:active {
+    background-color: hsla(208, 21%, 92%, .3);
+  }
+
+  .xl\:active\:bg-grey-lightest-30:active {
+    background-color: rgba(248, 250, 252, .3);
+  }
+
+  .xl\:active\:bg-white-30:active {
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  .xl\:active\:bg-red-darkest-30:active {
+    background-color: rgba(59, 13, 12, .3);
+  }
+
+  .xl\:active\:bg-red-darker-30:active {
+    background-color: rgba(98, 27, 24, .3);
+  }
+
+  .xl\:active\:bg-red-dark-30:active {
+    background-color: rgba(204, 31, 26, .3);
+  }
+
+  .xl\:active\:bg-red-30:active {
+    background-color: rgba(227, 52, 47, .3);
+  }
+
+  .xl\:active\:bg-red-light-30:active {
+    background-color: rgba(239, 87, 83, .3);
+  }
+
+  .xl\:active\:bg-red-lighter-30:active {
+    background-color: rgba(249, 172, 170, .3);
+  }
+
+  .xl\:active\:bg-red-lightest-30:active {
+    background-color: rgba(252, 235, 234, .3);
+  }
+
+  .xl\:active\:bg-orange-darkest-30:active {
+    background-color: rgba(70, 42, 22, .3);
+  }
+
+  .xl\:active\:bg-orange-darker-30:active {
+    background-color: rgba(97, 59, 31, .3);
+  }
+
+  .xl\:active\:bg-orange-dark-30:active {
+    background-color: rgba(222, 117, 31, .3);
+  }
+
+  .xl\:active\:bg-orange-30:active {
+    background-color: rgba(246, 153, 63, .3);
+  }
+
+  .xl\:active\:bg-orange-light-30:active {
+    background-color: rgba(250, 173, 99, .3);
+  }
+
+  .xl\:active\:bg-orange-lighter-30:active {
+    background-color: rgba(252, 217, 182, .3);
+  }
+
+  .xl\:active\:bg-orange-lightest-30:active {
+    background-color: rgba(255, 245, 235, .3);
+  }
+
+  .xl\:active\:bg-yellow-darkest-30:active {
+    background-color: rgba(69, 52, 17, .3);
+  }
+
+  .xl\:active\:bg-yellow-darker-30:active {
+    background-color: rgba(104, 79, 29, .3);
+  }
+
+  .xl\:active\:bg-yellow-dark-30:active {
+    background-color: rgba(242, 208, 36, .3);
+  }
+
+  .xl\:active\:bg-yellow-30:active {
+    background-color: rgba(255, 237, 74, .3);
+  }
+
+  .xl\:active\:bg-yellow-light-30:active {
+    background-color: rgba(255, 243, 130, .3);
+  }
+
+  .xl\:active\:bg-yellow-lighter-30:active {
+    background-color: rgba(255, 249, 194, .3);
+  }
+
+  .xl\:active\:bg-yellow-lightest-30:active {
+    background-color: rgba(252, 251, 235, .3);
+  }
+
+  .xl\:active\:bg-green-darkest-30:active {
+    background-color: rgba(15, 47, 33, .3);
+  }
+
+  .xl\:active\:bg-green-darker-30:active {
+    background-color: rgba(26, 71, 49, .3);
+  }
+
+  .xl\:active\:bg-green-dark-30:active {
+    background-color: rgba(31, 157, 85, .3);
+  }
+
+  .xl\:active\:bg-green-30:active {
+    background-color: rgba(56, 193, 114, .3);
+  }
+
+  .xl\:active\:bg-green-light-30:active {
+    background-color: rgba(81, 216, 138, .3);
+  }
+
+  .xl\:active\:bg-green-lighter-30:active {
+    background-color: rgba(162, 245, 191, .3);
+  }
+
+  .xl\:active\:bg-green-lightest-30:active {
+    background-color: rgba(227, 252, 236, .3);
+  }
+
+  .xl\:active\:bg-teal-darkest-30:active {
+    background-color: rgba(13, 51, 49, .3);
+  }
+
+  .xl\:active\:bg-teal-darker-30:active {
+    background-color: rgba(32, 80, 79, .3);
+  }
+
+  .xl\:active\:bg-teal-dark-30:active {
+    background-color: rgba(56, 168, 157, .3);
+  }
+
+  .xl\:active\:bg-teal-30:active {
+    background-color: rgba(77, 192, 181, .3);
+  }
+
+  .xl\:active\:bg-teal-light-30:active {
+    background-color: rgba(100, 213, 202, .3);
+  }
+
+  .xl\:active\:bg-teal-lighter-30:active {
+    background-color: rgba(160, 240, 237, .3);
+  }
+
+  .xl\:active\:bg-teal-lightest-30:active {
+    background-color: rgba(232, 255, 254, .3);
+  }
+
+  .xl\:active\:bg-blue-darkest-30:active {
+    background-color: rgba(18, 40, 58, .3);
+  }
+
+  .xl\:active\:bg-blue-darker-30:active {
+    background-color: rgba(28, 61, 90, .3);
+  }
+
+  .xl\:active\:bg-blue-dark-30:active {
+    background-color: rgba(39, 121, 189, .3);
+  }
+
+  .xl\:active\:bg-blue-30:active {
+    background-color: rgba(52, 144, 220, .3);
+  }
+
+  .xl\:active\:bg-blue-light-30:active {
+    background-color: rgba(108, 178, 235, .3);
+  }
+
+  .xl\:active\:bg-blue-lighter-30:active {
+    background-color: rgba(188, 222, 250, .3);
+  }
+
+  .xl\:active\:bg-blue-lightest-30:active {
+    background-color: rgba(239, 248, 255, .3);
+  }
+
+  .xl\:active\:bg-indigo-darkest-30:active {
+    background-color: rgba(25, 30, 56, .3);
+  }
+
+  .xl\:active\:bg-indigo-darker-30:active {
+    background-color: rgba(47, 54, 95, .3);
+  }
+
+  .xl\:active\:bg-indigo-dark-30:active {
+    background-color: rgba(86, 97, 179, .3);
+  }
+
+  .xl\:active\:bg-indigo-30:active {
+    background-color: rgba(101, 116, 205, .3);
+  }
+
+  .xl\:active\:bg-indigo-light-30:active {
+    background-color: rgba(120, 134, 215, .3);
+  }
+
+  .xl\:active\:bg-indigo-lighter-30:active {
+    background-color: rgba(178, 183, 255, .3);
+  }
+
+  .xl\:active\:bg-indigo-lightest-30:active {
+    background-color: rgba(230, 232, 255, .3);
+  }
+
+  .xl\:active\:bg-purple-darkest-30:active {
+    background-color: rgba(33, 24, 60, .3);
+  }
+
+  .xl\:active\:bg-purple-darker-30:active {
+    background-color: rgba(56, 43, 95, .3);
+  }
+
+  .xl\:active\:bg-purple-dark-30:active {
+    background-color: rgba(121, 74, 207, .3);
+  }
+
+  .xl\:active\:bg-purple-30:active {
+    background-color: rgba(149, 97, 226, .3);
+  }
+
+  .xl\:active\:bg-purple-light-30:active {
+    background-color: rgba(167, 121, 233, .3);
+  }
+
+  .xl\:active\:bg-purple-lighter-30:active {
+    background-color: rgba(214, 187, 252, .3);
+  }
+
+  .xl\:active\:bg-purple-lightest-30:active {
+    background-color: rgba(243, 235, 255, .3);
+  }
+
+  .xl\:active\:bg-pink-darkest-30:active {
+    background-color: rgba(69, 18, 37, .3);
+  }
+
+  .xl\:active\:bg-pink-darker-30:active {
+    background-color: rgba(111, 33, 63, .3);
+  }
+
+  .xl\:active\:bg-pink-dark-30:active {
+    background-color: rgba(235, 82, 134, .3);
+  }
+
+  .xl\:active\:bg-pink-30:active {
+    background-color: rgba(246, 109, 155, .3);
+  }
+
+  .xl\:active\:bg-pink-light-30:active {
+    background-color: rgba(250, 126, 168, .3);
+  }
+
+  .xl\:active\:bg-pink-lighter-30:active {
+    background-color: rgba(255, 187, 202, .3);
+  }
+
+  .xl\:active\:bg-pink-lightest-30:active {
+    background-color: rgba(255, 235, 239, .3);
   }
 }

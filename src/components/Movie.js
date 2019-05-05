@@ -49,7 +49,7 @@ function Movie({
     <article className="flex flex-col md:flex-row">
       <Input
         className={`
-          w-64 p-3 mr-4 mb-4 md:mb-0
+          w-64 px-3 py-2 mr-4 mb-4 md:mb-0
           bg-grey-lightest focus:bg-grey-lighter
           rounded
           focus:outline-none
@@ -69,6 +69,28 @@ function Movie({
         placeholder="Genre"
       />
       {rating && <div className="flex">{stars}</div>}
+    </article>
+  )
+}
+
+export function MovieSkeleton(props) {
+  const stars = []
+  for (let i = 0; i < 5; ++i) {
+    stars.push(
+      <div className="rounded-full w-6 h-6 mt-1 mr-2 bg-grey-lightest skeleton skeleton-circle overflow-hidden opacity-50" />
+    )
+  }
+  return (
+    <article className="flex flex-col md:flex-row mb-4" {...props}>
+      <div
+        className={`
+          w-64 h-8 px-3 py-2 mr-4 mb-4 md:mb-0
+          bg-grey-lightest rounded
+          skeleton
+        `}
+      />
+      <div className="inline-block w-64 md:w-48 mr-2 bg-grey-lightest rounded skeleton" />
+      <div className="flex" children={stars} />
     </article>
   )
 }

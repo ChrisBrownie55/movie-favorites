@@ -16,6 +16,7 @@ devDependencies:
   autoprefixer: registry.npmjs.org/autoprefixer/9.5.1
   postcss-cli: registry.npmjs.org/postcss-cli/6.1.2
   tailwindcss: registry.npmjs.org/tailwindcss/0.7.4
+  tailwindcss-alpha: registry.npmjs.org/tailwindcss-alpha/0.1.4
 lockfileVersion: 5
 packages:
   registry.npmjs.org/@babel/code-frame/7.0.0:
@@ -4793,7 +4794,6 @@ packages:
       tarball: 'https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz'
     version: 1.1.3
   registry.npmjs.org/color-name/1.1.4:
-    dev: false
     name: color-name
     resolution:
       integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
@@ -4804,7 +4804,6 @@ packages:
     dependencies:
       color-name: registry.npmjs.org/color-name/1.1.4
       simple-swizzle: registry.npmjs.org/simple-swizzle/0.2.2
-    dev: false
     name: color-string
     resolution:
       integrity: sha512-dC2C5qeWoYkxki5UAXapdjqO672AM4vZuPGRQfO8b5HKuKGBbKWpITyDYN7TOFKvRW7kOgAn3746clDBMDJyQw==
@@ -4815,7 +4814,6 @@ packages:
     dependencies:
       color-convert: registry.npmjs.org/color-convert/1.9.3
       color-string: registry.npmjs.org/color-string/1.5.3
-    dev: false
     name: color
     resolution:
       integrity: sha512-PvUltIXRjehRKPSy89VnDWFKY58xyhTLyxIg21vwQBI6qLwZNPmC8k3C1uytIgFKEpOIzN4y32iPm8231zFHIg==
@@ -8450,7 +8448,6 @@ packages:
       tarball: 'https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz'
     version: 0.2.1
   registry.npmjs.org/is-arrayish/0.3.2:
-    dev: false
     name: is-arrayish
     resolution:
       integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==
@@ -14356,7 +14353,6 @@ packages:
   registry.npmjs.org/simple-swizzle/0.2.2:
     dependencies:
       is-arrayish: registry.npmjs.org/is-arrayish/0.3.2
-    dev: false
     name: simple-swizzle
     resolution:
       integrity: sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
@@ -15085,6 +15081,16 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/table/-/table-5.2.3.tgz'
     version: 5.2.3
+  registry.npmjs.org/tailwindcss-alpha/0.1.4:
+    dependencies:
+      color: registry.npmjs.org/color/3.1.1
+    dev: true
+    name: tailwindcss-alpha
+    resolution:
+      integrity: sha512-S+NgYZSclS1a55q6e4I3GXnyE4qBOVuclT06xTeUobeTgIXR1mGvBY06AarInY/Fc6jdfh6Mqha68X0Ly+Gkiw==
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/tailwindcss-alpha/-/tailwindcss-alpha-0.1.4.tgz'
+    version: 0.1.4
   registry.npmjs.org/tailwindcss/0.7.4:
     dependencies:
       autoprefixer: registry.npmjs.org/autoprefixer/9.5.1
@@ -16628,3 +16634,4 @@ specifiers:
   react-select: ^2.4.3
   redux: ^4.0.1
   tailwindcss: ^0.7.4
+  tailwindcss-alpha: ^0.1.4
