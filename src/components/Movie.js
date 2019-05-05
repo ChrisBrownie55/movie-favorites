@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Input from './Input'
 import Select from 'react-select'
 
+import classNames from '@chbphone55/classnames'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar as faStarOutline } from '@fortawesome/free-regular-svg-icons'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
@@ -23,7 +25,9 @@ function Movie({
   onGenreChange,
   placeholder,
   rating = null,
-  onRatingChange
+  onRatingChange,
+  className,
+  ...props
 }) {
   const stars = []
 
@@ -47,10 +51,16 @@ function Movie({
   }
 
   return (
-    <article className="flex flex-col md:flex-row">
+    <article
+      className={classNames(
+        className,
+        'flex flex-col md:flex-row items-center'
+      )}
+      {...props}
+    >
       <Input
         className={`
-          w-64 px-3 py-2 mr-4 mb-4 md:mb-0
+          w-64 px-3 py-2 md:mr-4 mb-2 md:mb-0
           bg-grey-lightest focus:bg-grey-lighter
           rounded
           focus:outline-none
@@ -63,14 +73,14 @@ function Movie({
         placeholder={placeholder}
       />
       <Select
-        className="inline-block w-64 md:w-48"
+        className="inline-block w-64 md:w-48 md:mr-2"
         classNamePrefix="Select"
         value={genre}
         onChange={onGenreChange}
         options={options}
         placeholder="Genre"
       />
-      {rating && <div className="flex">{stars}</div>}
+      {rating && <div className="flex mt-2 md:mt-0">{stars}</div>}
     </article>
   )
 }

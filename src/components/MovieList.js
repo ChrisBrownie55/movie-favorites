@@ -12,7 +12,11 @@ function MovieList({ movies }) {
     async function loadMovies() {
       try {
         const movies = await storage.get('movies')
-        loadMovies(movies)
+
+        if (Array.isArray(movies)) {
+          loadMovies(movies)
+        }
+
         setMoviesLoaded(true)
       } catch (error) {
         console.error(error)
@@ -24,7 +28,7 @@ function MovieList({ movies }) {
 
   if (!haveMoviesLoaded) {
     return (
-      <div className="flex flex-col p-4">
+      <div className="flex flex-col">
         <MovieSkeleton />
         <MovieSkeleton />
         <MovieSkeleton />
@@ -32,23 +36,30 @@ function MovieList({ movies }) {
     )
   }
 
-  return movies.map((movie, index) => (
-    <Movie
-      value={movie.name}
-      onChange={name => {
-        editMovie(index, { ...movie, name })
-      }}
-      genre={movie.genre}
-      onGenreChange={genre => {
-        editMovie(index, { ...movie, genre })
-      }}
-      placeholder="Movie name"
-      rating={movie.rating}
-      onRatingChange={rating => {
-        editMovie(index, { ...movie, rating })
-      }}
-    />
-  ))
+  console.log(movies)
+
+  return (
+    <section className="flex flex-col">
+      {movies.map((movie, index) => (
+        <Movie
+          className="mb-8 md:mb-4"
+          value={movie.name}
+          onChange={name => {
+            editMovie(index, { ...movie, name })
+          }}
+          genre={movie.genre}
+          onGenreChange={genre => {
+            editMovie(index, { ...movie, genre })
+          }}
+          placeholder="Movie name"
+          rating={movie.rating}
+          onRatingChange={rating => {
+            editMovie(index, { ...movie, rating })
+          }}
+        />
+      ))}
+    </section>
+  )
 }
 
 export default connect(MovieList)

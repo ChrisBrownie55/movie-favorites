@@ -2,25 +2,34 @@ import React, { useState, useCallback } from 'react'
 
 import Movie from './Movie'
 import Button from './Button'
+import { addMovie } from '../store/actions'
 
 function NewMovie() {
-  const [value, setValue] = useState('')
+  const [name, setName] = useState('')
   const [genre, setGenre] = useState(null)
 
-  const handleChange = useCallback(
+  const handleSubmit = useCallback(event => {
+    event.preventDefault()
+    addMovie({ name, genre, rating: 3 })
+  }, [])
+
+  const handleReset = useCallback(
     event => {
-      setValue(event.target.value)
+      setName('')
+      setGenre(null)
     },
-    [setValue]
+    [setName, setGenre]
   )
 
-  const handleSubmit = useCallback(event => {}, [])
-
   return (
-    <form className="flex flex-col p-8 NewMovie" onSubmit={handleSubmit}>
+    <form
+      className="flex flex-col NewMovie"
+      onSubmit={handleSubmit}
+      onReset={handleReset}
+    >
       <Movie
-        value={value}
-        onChange={handleChange}
+        value={name}
+        onChange={setName}
         genre={genre}
         onGenreChange={setGenre}
         placeholder="New Movie"
