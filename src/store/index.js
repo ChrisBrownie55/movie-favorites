@@ -1,7 +1,7 @@
 import { createStore } from 'redux'
 import { storage } from 'kv-storage-polyfill'
 
-const types = {
+export const types = {
   ADD_MOVIE: 0,
   REMOVE_MOVIE: 1,
   EDIT_MOVIE: 2
@@ -28,9 +28,12 @@ function movieReducer(state = initialState, action) {
 const store = createStore(movieReducer)
 
 // updates kv-storage with new value on change
+let lastOperation = Promise.resolve()
 store.subscribe(() => {
   const state = store.getState()
-  storage.set('movies', state)
+
+  // wait for the last operation to finish
+  lastOperation = lastOperation.then(() => storage.set('movies', state))
 })
 
 export default store
