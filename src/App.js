@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import NewMovie from './components/NewMovie'
 
 import './App.css'
