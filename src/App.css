@@ -7,3 +7,7 @@
   grid-area: 2;
   align-self: flex-end;
 }
+
+.NewMovie .Select__menu-list {
+  max-height: 4rem !important;
+}

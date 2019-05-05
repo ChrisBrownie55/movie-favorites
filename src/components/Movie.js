@@ -64,6 +64,7 @@ function Movie({
       />
       <Select
         className="inline-block w-64 md:w-48"
+        classNamePrefix="Select"
         value={genre}
         onChange={onGenreChange}
         options={options}
