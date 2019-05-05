@@ -16,6 +16,7 @@ dependencies:
 devDependencies:
   '@svgr/webpack': registry.npmjs.org/@svgr/webpack/4.2.0
   autoprefixer: registry.npmjs.org/autoprefixer/9.5.1
+  gh-pages: registry.npmjs.org/gh-pages/2.0.1
   postcss: registry.npmjs.org/postcss/7.0.16
   postcss-cli: registry.npmjs.org/postcss-cli/6.1.2
   tailwindcss: registry.npmjs.org/tailwindcss/0.7.4
@@ -3622,7 +3623,6 @@ packages:
   registry.npmjs.org/async/2.6.2:
     dependencies:
       lodash: registry.npmjs.org/lodash/4.17.11
-    dev: false
     name: async
     resolution:
       integrity: sha512-H1qVYh1MYhEEFLsP97cVKqCGo7KfCyTt6uEWqsTBr9SO84oK9Uwbyd/yCW+6rKJLHksBNUVWZDAjfS+Ccx0Bbg==
@@ -4859,7 +4859,6 @@ packages:
       tarball: 'https://registry.npmjs.org/commander/-/commander-2.19.0.tgz'
     version: 2.19.0
   registry.npmjs.org/commander/2.20.0:
-    dev: false
     name: commander
     resolution:
       integrity: sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
@@ -6167,6 +6166,14 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/elliptic/-/elliptic-6.4.1.tgz'
     version: 6.4.1
+  registry.npmjs.org/email-addresses/3.0.3:
+    dev: true
+    name: email-addresses
+    resolution:
+      integrity: sha512-kUlSC06PVvvjlMRpNIl3kR1NRXLEe86VQ7N0bQeaCZb2g+InShCeHQp/JvyYNTugMnRN2NvJhHlc3q12MWbbpg==
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/email-addresses/-/email-addresses-3.0.3.tgz'
+    version: 3.0.3
   registry.npmjs.org/emoji-regex/7.0.3:
     dev: false
     name: emoji-regex
@@ -7032,6 +7039,43 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/file-loader/-/file-loader-3.0.1.tgz'
     version: 3.0.1
+  registry.npmjs.org/filename-reserved-regex/1.0.0:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    name: filename-reserved-regex
+    resolution:
+      integrity: sha1-5hz4BfDeHJhFZ9A4bcXfUO5a9+Q=
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/filename-reserved-regex/-/filename-reserved-regex-1.0.0.tgz'
+    version: 1.0.0
+  registry.npmjs.org/filenamify-url/1.0.0:
+    dependencies:
+      filenamify: registry.npmjs.org/filenamify/1.2.1
+      humanize-url: registry.npmjs.org/humanize-url/1.0.1
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    name: filenamify-url
+    resolution:
+      integrity: sha1-syvYExnvWGO3MHi+1Q9GpPeXX1A=
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/filenamify-url/-/filenamify-url-1.0.0.tgz'
+    version: 1.0.0
+  registry.npmjs.org/filenamify/1.2.1:
+    dependencies:
+      filename-reserved-regex: registry.npmjs.org/filename-reserved-regex/1.0.0
+      strip-outer: registry.npmjs.org/strip-outer/1.0.1
+      trim-repeated: registry.npmjs.org/trim-repeated/1.0.0
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    name: filenamify
+    resolution:
+      integrity: sha1-qfL/0RxQO+0wABUCknI3jx8TZaU=
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/filenamify/-/filenamify-1.2.1.tgz'
+    version: 1.2.1
   registry.npmjs.org/fileset/2.0.3:
     dependencies:
       glob: registry.npmjs.org/glob/7.1.3
@@ -7482,6 +7526,26 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/getpass/-/getpass-0.1.7.tgz'
     version: 0.1.7
+  registry.npmjs.org/gh-pages/2.0.1:
+    dependencies:
+      async: registry.npmjs.org/async/2.6.2
+      commander: registry.npmjs.org/commander/2.20.0
+      email-addresses: registry.npmjs.org/email-addresses/3.0.3
+      filenamify-url: registry.npmjs.org/filenamify-url/1.0.0
+      fs-extra: registry.npmjs.org/fs-extra/7.0.1
+      globby: registry.npmjs.org/globby/6.1.0
+      graceful-fs: registry.npmjs.org/graceful-fs/4.1.15
+      rimraf: registry.npmjs.org/rimraf/2.6.3
+    dev: true
+    engines:
+      node: '>=6'
+    hasBin: true
+    name: gh-pages
+    resolution:
+      integrity: sha512-uFlk3bukljeiWKQ2XvPfjcSi/ou7IfoDf2p+Fj672saLAr8bnOdFVqI/JSgrSgInKpCg5BksxEwGUl++dbg8Dg==
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/gh-pages/-/gh-pages-2.0.1.tgz'
+    version: 2.0.1
   registry.npmjs.org/glob-parent/3.1.0:
     dependencies:
       is-glob: registry.npmjs.org/is-glob/3.1.0
@@ -7555,7 +7619,6 @@ packages:
       object-assign: registry.npmjs.org/object-assign/4.1.1
       pify: registry.npmjs.org/pify/2.3.0
       pinkie-promise: registry.npmjs.org/pinkie-promise/2.0.1
-    dev: false
     engines:
       node: '>=0.10.0'
     name: globby
@@ -8080,6 +8143,19 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/https-browserify/-/https-browserify-1.0.0.tgz'
     version: 1.0.0
+  registry.npmjs.org/humanize-url/1.0.1:
+    dependencies:
+      normalize-url: registry.npmjs.org/normalize-url/1.9.1
+      strip-url-auth: registry.npmjs.org/strip-url-auth/1.0.1
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    name: humanize-url
+    resolution:
+      integrity: sha1-9KuZ4NKIF0yk4eUEB8VfuuRk7/8=
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/humanize-url/-/humanize-url-1.0.1.tgz'
+    version: 1.0.1
   registry.npmjs.org/humps/2.0.1:
     dev: false
     name: humps
@@ -10830,6 +10906,21 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz'
     version: 0.1.2
+  registry.npmjs.org/normalize-url/1.9.1:
+    dependencies:
+      object-assign: registry.npmjs.org/object-assign/4.1.1
+      prepend-http: registry.npmjs.org/prepend-http/1.0.4
+      query-string: registry.npmjs.org/query-string/4.3.4
+      sort-keys: registry.npmjs.org/sort-keys/1.1.2
+    dev: true
+    engines:
+      node: '>=4'
+    name: normalize-url
+    resolution:
+      integrity: sha1-LMDWazHqIwNkWENuNiDYWVTGbDw=
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/normalize-url/-/normalize-url-1.9.1.tgz'
+    version: 1.9.1
   registry.npmjs.org/normalize-url/3.3.0:
     dev: false
     engines:
@@ -11583,7 +11674,6 @@ packages:
   registry.npmjs.org/pinkie-promise/2.0.1:
     dependencies:
       pinkie: registry.npmjs.org/pinkie/2.0.4
-    dev: false
     engines:
       node: '>=0.10.0'
     name: pinkie-promise
@@ -11593,7 +11683,6 @@ packages:
       tarball: 'https://registry.npmjs.org/pinkie-promise/-/pinkie-promise-2.0.1.tgz'
     version: 2.0.1
   registry.npmjs.org/pinkie/2.0.4:
-    dev: false
     engines:
       node: '>=0.10.0'
     name: pinkie
@@ -12817,6 +12906,16 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz'
     version: 1.1.2
+  registry.npmjs.org/prepend-http/1.0.4:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    name: prepend-http
+    resolution:
+      integrity: sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/prepend-http/-/prepend-http-1.0.4.tgz'
+    version: 1.0.4
   registry.npmjs.org/pretty-bytes/5.2.0:
     dev: false
     engines:
@@ -13074,6 +13173,19 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/qs/-/qs-6.5.2.tgz'
     version: 6.5.2
+  registry.npmjs.org/query-string/4.3.4:
+    dependencies:
+      object-assign: registry.npmjs.org/object-assign/4.1.1
+      strict-uri-encode: registry.npmjs.org/strict-uri-encode/1.1.0
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    name: query-string
+    resolution:
+      integrity: sha1-u7aTucqRXCMlFbIosaArYJBD2+s=
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/query-string/-/query-string-4.3.4.tgz'
+    version: 4.3.4
   registry.npmjs.org/querystring-es3/0.2.1:
     dev: false
     engines:
@@ -13951,7 +14063,6 @@ packages:
   registry.npmjs.org/rimraf/2.6.3:
     dependencies:
       glob: registry.npmjs.org/glob/7.1.3
-    dev: false
     hasBin: true
     name: rimraf
     resolution:
@@ -14489,6 +14600,18 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/sockjs/-/sockjs-0.3.19.tgz'
     version: 0.3.19
+  registry.npmjs.org/sort-keys/1.1.2:
+    dependencies:
+      is-plain-obj: registry.npmjs.org/is-plain-obj/1.1.0
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    name: sort-keys
+    resolution:
+      integrity: sha1-RBttTTRnmPG05J6JIK37oOVD+a0=
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/sort-keys/-/sort-keys-1.1.2.tgz'
+    version: 1.1.2
   registry.npmjs.org/source-list-map/2.0.1:
     dev: false
     name: source-list-map
@@ -14785,6 +14908,16 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/stream-shift/-/stream-shift-1.0.0.tgz'
     version: 1.0.0
+  registry.npmjs.org/strict-uri-encode/1.1.0:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    name: strict-uri-encode
+    resolution:
+      integrity: sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz'
+    version: 1.1.0
   registry.npmjs.org/string-length/2.0.0:
     dependencies:
       astral-regex: registry.npmjs.org/astral-regex/1.0.0
@@ -14953,6 +15086,28 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz'
     version: 2.0.1
+  registry.npmjs.org/strip-outer/1.0.1:
+    dependencies:
+      escape-string-regexp: registry.npmjs.org/escape-string-regexp/1.0.5
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    name: strip-outer
+    resolution:
+      integrity: sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg==
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/strip-outer/-/strip-outer-1.0.1.tgz'
+    version: 1.0.1
+  registry.npmjs.org/strip-url-auth/1.0.1:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    name: strip-url-auth
+    resolution:
+      integrity: sha1-IrD6OkE4WzO+PzMVUbu4N/oM164=
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/strip-url-auth/-/strip-url-auth-1.0.1.tgz'
+    version: 1.0.1
   registry.npmjs.org/style-loader/0.23.1:
     dependencies:
       loader-utils: registry.npmjs.org/loader-utils/1.2.3
@@ -15388,6 +15543,18 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/tr46/-/tr46-1.0.1.tgz'
     version: 1.0.1
+  registry.npmjs.org/trim-repeated/1.0.0:
+    dependencies:
+      escape-string-regexp: registry.npmjs.org/escape-string-regexp/1.0.5
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    name: trim-repeated
+    resolution:
+      integrity: sha1-42RqLqTokTEr9+rObPsFOAvAHCE=
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/trim-repeated/-/trim-repeated-1.0.0.tgz'
+    version: 1.0.0
   registry.npmjs.org/trim-right/1.0.1:
     engines:
       node: '>=0.10.0'
@@ -16646,6 +16813,7 @@ specifiers:
   '@fortawesome/react-fontawesome': ^0.1.4
   '@svgr/webpack': ^4.2.0
   autoprefixer: ^9.5.1
+  gh-pages: ^2.0.1
   kv-storage-polyfill: ^1.0.0
   mini-debounce: ^1.0.5
   postcss: ^7.0.16
