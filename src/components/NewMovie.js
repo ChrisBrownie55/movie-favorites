@@ -3,7 +3,7 @@ import React, { useState, useCallback } from 'react'
 import Movie from './Movie'
 import Button from './Button'
 
-function NewMovie({ className, ...props }) {
+function NewMovie() {
   const [value, setValue] = useState('')
   const [genre, setGenre] = useState(null)
 
