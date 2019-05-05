@@ -35,7 +35,6 @@ const store = createStore(movieReducer, composeWithDevTools())
 
 // updates kv-storage with new value on change
 // debounced to avoid constantly updating
-window.kvStorage = storage
 store.subscribe(
   debounce(() => {
     const state = store.getState()
