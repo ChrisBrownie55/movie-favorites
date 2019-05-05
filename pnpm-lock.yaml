@@ -5,6 +5,7 @@ dependencies:
   '@fortawesome/free-solid-svg-icons': registry.npmjs.org/@fortawesome/free-solid-svg-icons/5.8.1
   '@fortawesome/react-fontawesome': registry.npmjs.org/@fortawesome/react-fontawesome/0.1.4
   kv-storage-polyfill: registry.npmjs.org/kv-storage-polyfill/1.0.0
+  mini-debounce: registry.npmjs.org/mini-debounce/1.0.5
   react: registry.npmjs.org/react/16.8.6
   react-dom: registry.npmjs.org/react-dom/16.8.6
   react-redux: registry.npmjs.org/react-redux/7.0.3
@@ -10444,6 +10445,14 @@ packages:
       registry: 'http://registry.npmjs.com/'
       tarball: 'https://registry.npmjs.org/mini-css-extract-plugin/-/mini-css-extract-plugin-0.5.0.tgz'
     version: 0.5.0
+  registry.npmjs.org/mini-debounce/1.0.5:
+    dev: false
+    name: mini-debounce
+    resolution:
+      integrity: sha512-kfDSLZYC6tUV9kNW4jozR1elZwg6Mpw6fvMZRw1Zfc5CyaE6TvGgkVhP+C3IUTEWFYL1a97YHGThpg5Vr736Wg==
+      registry: 'http://registry.npmjs.com/'
+      tarball: 'https://registry.npmjs.org/mini-debounce/-/mini-debounce-1.0.5.tgz'
+    version: 1.0.5
   registry.npmjs.org/minimalistic-assert/1.0.1:
     dev: false
     name: minimalistic-assert
@@ -16626,6 +16635,7 @@ specifiers:
   '@svgr/webpack': ^4.2.0
   autoprefixer: ^9.5.1
   kv-storage-polyfill: ^1.0.0
+  mini-debounce: ^1.0.5
   postcss-cli: ^6.1.2
   react: ^16.8.6
   react-dom: ^16.8.6
