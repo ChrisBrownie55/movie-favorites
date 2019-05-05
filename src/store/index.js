@@ -15,7 +15,7 @@ const initialState = []
 function movieReducer(state = initialState, action) {
   switch (action.type) {
     case types.ADD_MOVIE:
-      return state.concat(action.payload)
+      return [action.payload, ...state]
     case types.REMOVE_MOVIE:
       return [...state.slice(0, action.payload), ...state.slice(action.payload)]
     case types.EDIT_MOVIE:
