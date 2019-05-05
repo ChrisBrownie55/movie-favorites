@@ -35,7 +35,7 @@ function NewMovie() {
         placeholder="New Movie"
       />
 
-      <div className="flex mt-4">
+      <div className="flex md:justify-baseline mt-4 w-64 md:w-auto mx-auto md:mx-0">
         <Button primary type="submit">
           Save Movie
         </Button>
