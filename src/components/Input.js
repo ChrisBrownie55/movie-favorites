@@ -16,7 +16,6 @@ const Input = memo(({ className, onChange, ...props }) => (
     className={classNames(
       className,
       `
-      w-64 px-3 py-2 md:mr-4 mb-2 md:mb-0
       bg-grey-lightest focus:bg-grey-lighter
       rounded
       focus:outline-none

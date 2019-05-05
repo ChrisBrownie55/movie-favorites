@@ -1,6 +1,6 @@
 import React from 'react'
 import Input, { DebouncedInput } from './Input'
-import Select from 'react-select'
+import Select from './Select'
 
 import classNames from '@chbphone55/classnames'
 
@@ -62,6 +62,7 @@ function Movie({
       {...props}
     >
       <InputElement
+        className="w-64 px-3 py-2 md:mr-4 mb-2 md:mb-0"
         style={{
           transition: 'all 0.15s ease-out'
         }}
@@ -73,7 +74,6 @@ function Movie({
       />
       <Select
         className="inline-block w-64 md:w-48 md:mr-2"
-        classNamePrefix="Select"
         value={genre}
         onChange={onGenreChange}
         options={options}
