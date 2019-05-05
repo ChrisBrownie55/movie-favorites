@@ -8,16 +8,19 @@ function NewMovie() {
   const [name, setName] = useState('')
   const [genre, setGenre] = useState(null)
 
-  const handleSubmit = useCallback(event => {
-    event.preventDefault()
-    addMovie({ name, genre, rating: 3 })
-    handleReset()
-  }, [])
-
   const handleReset = useCallback(() => {
     setName('')
     setGenre(null)
   }, [setName, setGenre])
+
+  const handleSubmit = useCallback(
+    event => {
+      event.preventDefault()
+      addMovie({ name, genre, rating: 3 })
+      handleReset()
+    },
+    [name, genre, handleReset]
+  )
 
   return (
     <form
