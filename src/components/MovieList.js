@@ -41,7 +41,7 @@ function MovieList({ movies }) {
     return (
       <div className="m-auto flex flex-col items-center">
         <MovieItemsSVG className="h-auto mb-8" style={{ width: '25rem' }} />
-        <p className="text-xl font-medium text-grey-light">
+        <p className="text-xl font-medium text-grey-light text-center">
           You don't have any movies in your list. Add them below.
         </p>
       </div>

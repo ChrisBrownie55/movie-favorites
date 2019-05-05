@@ -30,7 +30,7 @@ function NewMovie() {
     >
       <label
         htmlFor="new-movie"
-        className="ml-2 mb-2 text-grey-darkest text-xl"
+        className="mx-auto md:ml-2 md:mr-auto mb-2 text-grey-darkest text-xl"
       >
         New Movie
       </label>
@@ -43,7 +43,7 @@ function NewMovie() {
         inputId="new-movie"
       />
 
-      <div className="flex md:justify-baseline mt-4 w-64 md:w-auto mx-auto md:mx-0">
+      <div className="flex md:justify-start mt-4 w-64 md:w-auto mx-auto md:mx-0">
         <Button primary type="submit">
           Save Movie
         </Button>
