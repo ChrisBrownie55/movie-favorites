@@ -15,9 +15,9 @@ const Input = memo(({ onChange, ...props }) => (
   />
 ))
 
-export function DebouncedInput({ value, onChange, ...props }) {
+export function DebouncedInput({ timeout = 500, value, onChange, ...props }) {
   const [currentValue, setCurrentValue] = useState(value)
-  const propagateChange = useMemo(() => debounce(onChange, 500), [onChange])
+  const propagateChange = useMemo(() => debounce(onChange, timeout), [onChange])
   const timeoutID = useRef()
 
   const handleChange = useCallback(
