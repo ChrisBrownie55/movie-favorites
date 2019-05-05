@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Movie, { MovieSkeleton } from './Movie'
 
 import { connect } from '../store'
+import { editMovie } from '../store/actions'
 import { storage } from 'kv-storage-polyfill'
 
 function MovieList({ movies }) {
@@ -31,7 +32,23 @@ function MovieList({ movies }) {
     )
   }
 
-  return <p>{JSON.stringify(movies)}</p>
+  return movies.map((movie, index) => (
+    <Movie
+      value={movie.name}
+      onChange={name => {
+        editMovie(index, { ...movie, name })
+      }}
+      genre={movie.genre}
+      onGenreChange={genre => {
+        editMovie(index, { ...movie, genre })
+      }}
+      placeholder="Movie name"
+      rating={movie.rating}
+      onRatingChange={rating => {
+        editMovie(index, { ...movie, rating })
+      }}
+    />
+  ))
 }
 
 export default connect(MovieList)

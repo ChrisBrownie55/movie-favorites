@@ -22,7 +22,8 @@ function Movie({
   genre,
   onGenreChange,
   placeholder,
-  rating = null
+  rating = null,
+  onRatingChange
 }) {
   const stars = []
 
