@@ -23,7 +23,7 @@ function NewMovie() {
 
   return (
     <form
-      className="flex flex-col NewMovie"
+      className="flex flex-col fixed w-full pin-b pin-l p-8 pt-4 bg-white shadow-md NewMovie"
       onSubmit={handleSubmit}
       onReset={handleReset}
     >

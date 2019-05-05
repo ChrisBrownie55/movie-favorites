@@ -1,12 +1,3 @@
-.App {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-
-.NewMovie {
-  align-self: flex-end;
-}
-
 .NewMovie .Select__menu-list {
   max-height: 4rem !important;
 }
