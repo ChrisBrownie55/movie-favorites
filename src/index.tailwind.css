@@ -17,7 +17,7 @@ body,
   content: '';
   width: 0%;
 
-  @apply absolute h-full bg-blue-lighter-30 pin rounded;
+  @apply absolute h-full bg-purple-lighter-30 pin rounded;
 
   animation: skeleton 3s infinite ease-in-out;
 }

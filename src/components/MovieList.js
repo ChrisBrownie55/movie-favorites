@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Movie, { MovieSkeleton } from './Movie'
+import { ReactComponent as MovieItemsSVG } from '../movie-items.svg'
 
 import { connect } from '../store'
 import { editMovie } from '../store/actions'
@@ -36,7 +37,16 @@ function MovieList({ movies }) {
     )
   }
 
-  console.log(movies)
+  if (!movies.length) {
+    return (
+      <div className="m-auto flex flex-col items-center">
+        <MovieItemsSVG className="h-auto mb-8" style={{ width: '25rem' }} />
+        <p className="text-xl font-medium text-grey-light">
+          You don't have any movies in your list. Add them below.
+        </p>
+      </div>
+    )
+  }
 
   return (
     <section className="flex flex-col">
