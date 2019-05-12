@@ -1,8 +1,12 @@
 import { createStore } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import { connect } from 'react-redux'
-import { storage } from 'kv-storage-polyfill'
+import { StorageArea } from 'kv-storage-polyfill'
 import { debounce } from 'mini-debounce'
+
+export const storage = new StorageArea(
+  'chrisbrownie55.github.io/movie-favorites'
+)
 
 export const types = {
   ADD_MOVIE: 0,

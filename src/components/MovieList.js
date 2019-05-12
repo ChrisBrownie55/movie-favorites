@@ -2,9 +2,8 @@ import React, { useState, useEffect } from 'react'
 import Movie, { MovieSkeleton } from './Movie'
 import { ReactComponent as MovieItemsSVG } from '../movie-items.svg'
 
-import { connect } from '../store'
+import { connect, storage } from '../store'
 import { editMovie, setMovies, removeMovie } from '../store/actions'
-import { storage } from 'kv-storage-polyfill'
 
 function MovieList({ movies }) {
   const [haveMoviesLoaded, setMoviesLoaded] = useState(false)
