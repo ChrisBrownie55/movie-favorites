@@ -5,6 +5,8 @@ import App from './App'
 import { Provider } from 'react-redux'
 import store from './store'
 
+import 'react-spring-modal/dist/index.css'
+
 import * as serviceWorker from './serviceWorker'
 
 import './index.css'
